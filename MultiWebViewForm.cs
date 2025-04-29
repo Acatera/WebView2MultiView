@@ -187,8 +187,7 @@ public partial class MultiWebViewForm : Form
                 {
                     Dock = DockStyle.Fill,
                     Margin = new Padding(2),
-                    ZoomFactor = 0.5f,
-
+                    ZoomFactor = 0.75f,
                 };
 
                 webView.NavigationCompleted += async (sender, args) =>
