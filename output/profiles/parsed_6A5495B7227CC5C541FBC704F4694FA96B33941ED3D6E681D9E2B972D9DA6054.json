@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/DisTV.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "DISTV",
+            "date": "2022-12-16"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Dailylook.ro",
+            "date": "2022-05-31"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=61555653087195",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Restul lumii",
+            "date": "2024-10-06"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Top 8",
+            "date": "2024-08-05"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Top 8",
+            "date": "2024-08-05"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Băiatul Inspirat",
+            "date": "2024-01-11"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 1
+        }
+    ]
+}

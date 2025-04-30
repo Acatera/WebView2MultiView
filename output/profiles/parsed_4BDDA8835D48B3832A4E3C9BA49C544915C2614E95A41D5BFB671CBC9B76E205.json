@@ -1,0 +1,44 @@
+{
+    "url": "https://www.facebook.com/eSuflet",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "MARIA",
+            "date": "2023-11-25"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "MARIA",
+            "date": "2023-11-25"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Suflet Visător",
+            "date": "2023-01-14"
+        },
+        {
+            "event_type": "Creation",
+            "name": "No, ni ma la el",
+            "date": "2017-11-25"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        },
+        {
+            "country": "Moldova",
+            "count": 2
+        },
+        {
+            "country": "Ireland",
+            "count": 1
+        }
+    ]
+}

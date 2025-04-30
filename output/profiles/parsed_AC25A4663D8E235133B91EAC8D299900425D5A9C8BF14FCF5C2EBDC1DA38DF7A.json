@@ -1,0 +1,61 @@
+{
+    "url": "https://www.facebook.com/mediaromaneasca",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Media Românească",
+            "date": "2022-10-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ion MOTEA.ro",
+            "date": "2022-10-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Epoca",
+            "date": "2022-01-17"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Media Românească",
+            "date": "2019-11-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "EPOCA - Media Românească",
+            "date": "2019-11-01"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "EPOCA",
+            "date": "2019-08-06"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "EPOCA .ro",
+            "date": "2019-05-26"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ion .ro",
+            "date": "2019-05-17"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Ion MOTEA",
+            "date": "2011-06-30"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

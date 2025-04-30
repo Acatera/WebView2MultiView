@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100067726773129",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "PNȚ - Partidul Național Țărănesc",
+            "date": "2020-06-11"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Partidul Național Țărănesc",
+            "date": "2020-06-07"
+        }
+    ],
+    "page_managers": []
+}

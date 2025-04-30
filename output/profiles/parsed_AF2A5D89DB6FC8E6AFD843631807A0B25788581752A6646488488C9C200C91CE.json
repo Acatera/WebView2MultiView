@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100064102333141",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Fhaye Mous Hugot",
+            "date": "2017-05-14"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Vietnam",
+            "count": 3
+        },
+        {
+            "country": "Indonesia",
+            "count": 1
+        }
+    ]
+}

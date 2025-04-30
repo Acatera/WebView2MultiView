@@ -1,0 +1,34 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100091053907383",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Cake recipe",
+            "date": "2025-02-20"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Cakes & flowers",
+            "date": "2023-03-19"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Egypt",
+            "count": 17
+        },
+        {
+            "country": "Ethiopia",
+            "count": 4
+        },
+        {
+            "country": "Chile",
+            "count": 2
+        }
+    ]
+}

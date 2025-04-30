@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100064412633559",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "ISU Timiș",
+            "date": "2017-04-13"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "ISU TIMIȘ - Inspectoratul pentru Situații de Urgență \"Banat\" al jud. Timiș",
+            "date": "2015-12-17"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Inspectoratul pentru Situații de Urgență \"Banat\" al județului Timiș",
+            "date": "2011-03-29"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

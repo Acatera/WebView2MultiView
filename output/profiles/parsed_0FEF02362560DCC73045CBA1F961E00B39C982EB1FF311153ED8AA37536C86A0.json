@@ -1,0 +1,41 @@
+{
+    "url": "https://www.facebook.com/jurnalblog",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "𝐉𝐮𝐫𝐧𝐚𝐥",
+            "date": "2023-05-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "𝐉𝐮𝐫𝐧𝐚𝐥",
+            "date": "2023-05-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Jurnalul Sfânt",
+            "date": "2023-05-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Jurnalul Sfânt",
+            "date": "2023-05-11"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Jurnalul sfânt",
+            "date": "2023-01-18"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 8
+        }
+    ]
+}

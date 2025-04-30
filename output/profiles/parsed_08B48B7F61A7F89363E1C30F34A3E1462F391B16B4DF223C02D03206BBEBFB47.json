@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/mamateiubesc211",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "MAMA",
+            "date": "2018-08-26"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Mama Te Iubesc, Te Voi Iubi Mereu",
+            "date": "2017-10-17"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100069148910665",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Some loves",
+            "date": "2019-09-26"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

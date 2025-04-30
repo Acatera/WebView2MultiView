@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/BunatatesiCreativitate",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Bunatate si Creativitate",
+            "date": "2020-05-29"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Regina Bucatariei",
+            "date": "2019-08-22"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

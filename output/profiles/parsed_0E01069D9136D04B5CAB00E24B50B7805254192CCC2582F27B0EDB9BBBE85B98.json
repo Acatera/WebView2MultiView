@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/Bontasmarian.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Bontas Marian",
+            "date": "2022-11-16"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Cai Grei",
+            "date": "2017-01-16"
+        },
+        {
+            "event_type": "Creation",
+            "name": "ºº•Iubire şi trădare•ºº",
+            "date": "2013-11-16"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

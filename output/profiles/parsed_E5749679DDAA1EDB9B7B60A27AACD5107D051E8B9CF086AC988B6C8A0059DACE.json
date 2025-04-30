@@ -1,0 +1,61 @@
+{
+    "url": "https://www.facebook.com/NewsBalea10",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Călător în România",
+            "date": "2024-06-05"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Satele din România",
+            "date": "2023-12-12"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Româncuța",
+            "date": "2023-10-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Româncuța",
+            "date": "2023-10-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Asta-i România",
+            "date": "2023-04-23"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Asta-i România",
+            "date": "2023-04-23"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Satele din România",
+            "date": "2023-04-15"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Satele din România",
+            "date": "2023-04-15"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Misterele României",
+            "date": "2023-04-02"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

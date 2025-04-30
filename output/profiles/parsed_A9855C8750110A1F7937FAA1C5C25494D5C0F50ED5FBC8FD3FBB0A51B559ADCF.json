@@ -1,0 +1,86 @@
+{
+    "url": "https://www.facebook.com/ticalosu.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Un gând bun",
+            "date": "2025-02-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ticălosu'",
+            "date": "2021-05-06"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ticălosul",
+            "date": "2021-04-27"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ticălosu'",
+            "date": "2018-08-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ticălosul",
+            "date": "2018-08-04"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ticălosul din cartier.",
+            "date": "2018-07-31"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Citate din cartier.",
+            "date": "2018-07-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Din cartier.",
+            "date": "2018-06-29"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Citate din cartier.",
+            "date": "2018-05-05"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Venin din cartier",
+            "date": "2018-03-23"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Citate din cartier",
+            "date": "2018-03-16"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Lejereanu din cartier.",
+            "date": "2018-03-08"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Lejereanu",
+            "date": "2017-03-11"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Lejereanu'",
+            "date": "2016-05-16"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

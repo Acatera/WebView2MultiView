@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/votrediverssemantt",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Votre divertissement",
+            "date": "2023-03-26"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Armenia",
+            "count": 6
+        },
+        {
+            "country": "France",
+            "count": 1
+        }
+    ]
+}

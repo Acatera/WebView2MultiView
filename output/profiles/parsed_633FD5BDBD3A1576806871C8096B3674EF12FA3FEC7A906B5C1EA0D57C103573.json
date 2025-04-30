@@ -1,0 +1,46 @@
+{
+    "url": "https://www.facebook.com/voiosie",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Flori",
+            "date": "2023-07-20"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Flori",
+            "date": "2023-07-20"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Flori Frumoase",
+            "date": "2023-03-05"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Voiosie.ro",
+            "date": "2023-02-14"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Iubire",
+            "date": "2022-12-31"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Retete-culinare.net",
+            "date": "2020-01-21"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

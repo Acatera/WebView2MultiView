@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/CamionagiiDinRomania",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Camionagii din România",
+            "date": "2015-08-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Firme de transport din România",
+            "date": "2015-08-06"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Camioane din România",
+            "date": "2015-08-02"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Firme de transport din Romania",
+            "date": "2014-06-18"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

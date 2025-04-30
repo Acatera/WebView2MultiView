@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/sfardealuluiarsenieboca",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Sfântul Ardealului",
+            "date": "2021-11-23"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Biserica din Drăgănescu",
+            "date": "2014-03-29"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Biserica din Draganescu",
+            "date": "2014-03-17"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

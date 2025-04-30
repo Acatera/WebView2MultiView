@@ -1,0 +1,30 @@
+{
+    "url": "https://www.facebook.com/Sanatatea.ROL.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Sanatatea.ro",
+            "date": "2016-10-14"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Sanatate.Ro",
+            "date": "2016-10-14"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 8
+        },
+        {
+            "country": "Greece",
+            "count": 1
+        }
+    ]
+}

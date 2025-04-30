@@ -1,0 +1,49 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100078289934635",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Horse world",
+            "date": "2023-03-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Horse world",
+            "date": "2023-03-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Pearl flower",
+            "date": "2023-03-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Nature & pets",
+            "date": "2023-03-14"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Baby & pets",
+            "date": "2022-02-13"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Egypt",
+            "count": 17
+        },
+        {
+            "country": "Ethiopia",
+            "count": 4
+        },
+        {
+            "country": "Chile",
+            "count": 1
+        }
+    ]
+}

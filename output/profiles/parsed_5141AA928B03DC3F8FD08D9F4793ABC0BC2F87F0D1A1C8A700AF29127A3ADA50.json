@@ -1,0 +1,55 @@
+{
+    "url": "https://www.facebook.com/IubescRomaniaa",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Călător prin România",
+            "date": "2017-03-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Câini Călător prin România",
+            "date": "2017-03-04"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Câini Ciobănești Românești.",
+            "date": "2017-02-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Câini de Rasă",
+            "date": "2017-01-17"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "România Frumoasă",
+            "date": "2017-01-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Vlad Mihalcea",
+            "date": "2015-08-10"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Linkuri de strada.",
+            "date": "2014-05-04"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        },
+        {
+            "country": "Spain",
+            "count": 1
+        }
+    ]
+}

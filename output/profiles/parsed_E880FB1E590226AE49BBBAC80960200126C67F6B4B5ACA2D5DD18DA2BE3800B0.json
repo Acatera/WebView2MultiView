@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100053502500779",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Mesagerul Sufletului",
+            "date": "2023-09-17"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Mesagerul Sufletului",
+            "date": "2023-09-17"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Nelson Livian Pop",
+            "date": "2023-04-22"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Livian Pop",
+            "date": "2019-10-07"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=61572215671821",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false,
+        "has_run": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Vise Romanesti",
+            "date": "2025-01-18"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Ireland",
+            "count": 1
+        },
+        {
+            "country": "Romania",
+            "count": 1
+        }
+    ]
+}

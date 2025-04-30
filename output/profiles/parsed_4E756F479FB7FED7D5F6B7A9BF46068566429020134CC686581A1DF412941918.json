@@ -1,0 +1,41 @@
+{
+    "url": "https://www.facebook.com/unsuflet10",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "România mea",
+            "date": "2024-06-01"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "𝚄𝙽 𝚂𝚄𝙵𝙻𝙴𝚃",
+            "date": "2020-09-19"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Antisocial",
+            "date": "2020-09-05"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "D e f e c t u l",
+            "date": "2020-08-27"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Manele",
+            "date": "2020-01-27"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

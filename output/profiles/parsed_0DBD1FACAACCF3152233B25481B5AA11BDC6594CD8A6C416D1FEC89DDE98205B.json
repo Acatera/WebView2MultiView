@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/OChilieAthonita",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "O Chilie Athonită: Bucurii din Sfântul Munte",
+            "date": "2021-06-02"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Greece",
+            "count": 2
+        },
+        {
+            "country": "Romania",
+            "count": 1
+        }
+    ]
+}

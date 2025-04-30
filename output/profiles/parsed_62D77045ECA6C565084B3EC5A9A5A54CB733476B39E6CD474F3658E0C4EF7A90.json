@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/pgg.frumusita",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "PGG Frumușița",
+            "date": "2024-11-03"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Partidul S.O.S România, Filiala Frumușița, Galați",
+            "date": "2023-11-12"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

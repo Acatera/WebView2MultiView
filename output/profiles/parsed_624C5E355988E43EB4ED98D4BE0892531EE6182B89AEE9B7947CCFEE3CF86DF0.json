@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/UnDesertDulceOfficial",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Un Desert Dulce",
+            "date": "2018-12-21"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Un Baiat Dulce",
+            "date": "2013-05-13"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

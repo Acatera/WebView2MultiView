@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/meleagurileromaniei",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Meleagurile României",
+            "date": "2023-11-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Misterele României",
+            "date": "2022-01-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Georginel Bâlea",
+            "date": "2021-12-21"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Să fim sanătosi",
+            "date": "2016-04-08"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

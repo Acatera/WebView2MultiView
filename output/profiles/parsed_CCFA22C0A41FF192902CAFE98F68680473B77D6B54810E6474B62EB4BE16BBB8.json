@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100076724086703",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Patrioții Județul Argeș",
+            "date": "2021-11-04"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Calea Noastră Argeș",
+            "date": "2018-09-03"
+        }
+    ],
+    "page_managers": []
+}

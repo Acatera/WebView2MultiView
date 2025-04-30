@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/LumeaLuiRuxy1",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Lumea lui Ruxy",
+            "date": "2024-08-26"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Gabriela Nicolae",
+            "date": "2018-10-21"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

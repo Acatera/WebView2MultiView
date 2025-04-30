@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/mesaje.frumoase.prietenie",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Mesaje frumoase",
+            "date": "2019-06-24"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 9
+        },
+        {
+            "country": "Switzerland",
+            "count": 1
+        }
+    ]
+}

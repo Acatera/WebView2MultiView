@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/ALDEFieni",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "ALDE - Fieni",
+            "date": "2015-06-20"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Partidul Liberal Reformator Fieni",
+            "date": "2014-10-05"
+        }
+    ],
+    "page_managers": []
+}

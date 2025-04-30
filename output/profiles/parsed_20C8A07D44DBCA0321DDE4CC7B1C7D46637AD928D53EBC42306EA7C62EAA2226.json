@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/mondedesanimauxx",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Monde des animaux",
+            "date": "2022-08-27"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Armenia",
+            "count": 6
+        },
+        {
+            "country": "France",
+            "count": 1
+        }
+    ]
+}

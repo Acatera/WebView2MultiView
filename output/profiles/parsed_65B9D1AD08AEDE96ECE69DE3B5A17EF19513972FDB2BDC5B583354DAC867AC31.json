@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/ZiuaCuriozitatilor",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Curiozitatea Zilei",
+            "date": "2018-11-09"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Bancul Zilei",
+            "date": "2018-05-17"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

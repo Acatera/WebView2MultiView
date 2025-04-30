@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/yopifi3",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Pentru Tine",
+            "date": "2018-09-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Pentru Tine Romanii din Stainatate",
+            "date": "2018-08-21"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Pentru Tine",
+            "date": "2018-06-16"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

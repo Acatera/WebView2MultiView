@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=61555657435571",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Stiri Picante",
+            "date": "2024-10-01"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Stiri Picante",
+            "date": "2024-10-01"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Te seaca iubirea",
+            "date": "2024-01-10"
+        },
+        {
+            "event_type": "Creation",
+            "name": "𝚄𝙽 𝚂𝚄𝙵𝙻𝙴𝚃",
+            "date": "2024-01-10"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/cancan.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false,
+        "has_run": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Cancan.ro",
+            "date": "2011-02-09"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 37
+        },
+        {
+            "country": "Location hidden by Page manager",
+            "count": 1
+        }
+    ]
+}

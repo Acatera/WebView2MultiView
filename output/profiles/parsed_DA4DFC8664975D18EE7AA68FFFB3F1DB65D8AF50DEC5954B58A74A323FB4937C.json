@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/romaniafm.stiri",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "România FM",
+            "date": "2024-01-19"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Viorel Iliescu",
+            "date": "2020-05-23"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Citește și Distribuie Viorel Iliescu",
+            "date": "2020-05-16"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Citește și Distribuie",
+            "date": "2019-03-16"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

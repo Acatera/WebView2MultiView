@@ -1,0 +1,32 @@
+{
+    "url": "https://www.facebook.com/radiofxnet",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false,
+        "has_run": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Radio Fx Net",
+            "date": "2016-12-06"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Radio Fx-Net",
+            "date": "2016-05-26"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Radio Fx-Net Romania",
+            "date": "2011-02-10"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100083192687688",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Stiri mondene",
+            "date": "2024-08-05"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Stiri mondene",
+            "date": "2024-08-05"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Daily Horoscope",
+            "date": "2024-01-28"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Horoscop",
+            "date": "2022-04-03"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

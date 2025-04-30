@@ -1,0 +1,35 @@
+{
+    "url": "https://www.facebook.com/CuLacrimi",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Georgel Avram",
+            "date": "2024-11-17"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Vagabontul Rade Cu Lacrimi",
+            "date": "2019-02-27"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Vei Rade Cu Lacrimi",
+            "date": "2013-01-04"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        },
+        {
+            "country": "Italy",
+            "count": 1
+        }
+    ]
+}

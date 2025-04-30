@@ -1,0 +1,46 @@
+{
+    "url": "https://www.facebook.com/RomaniaFrumoasaa.Ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "România ta",
+            "date": "2021-10-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Cai in România.",
+            "date": "2018-03-10"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "La mine acasa in România",
+            "date": "2018-02-25"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Iubesc Animalele România",
+            "date": "2018-02-18"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Cai Grei România",
+            "date": "2018-02-14"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Cai Grei",
+            "date": "2017-12-17"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

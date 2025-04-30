@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100080068822961",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Flori Frumoase",
+            "date": "2021-10-28"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Flori-Muzica-Imagini",
+            "date": "2014-10-26"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

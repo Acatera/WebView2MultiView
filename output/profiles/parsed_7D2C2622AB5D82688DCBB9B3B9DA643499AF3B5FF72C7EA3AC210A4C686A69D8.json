@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100064651903227",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Fericire Si Speranță Ingerii Inimii Tale",
+            "date": "2021-12-07"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Fericire Si Speranță",
+            "date": "2014-10-25"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 8
+        }
+    ]
+}

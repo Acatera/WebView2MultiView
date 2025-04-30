@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/sufleteindragostite",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Trandafirul albastru",
+            "date": "2018-03-23"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Suflete albastru",
+            "date": "2018-03-15"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Suflete îndrăgostite",
+            "date": "2016-12-30"
+        },
+        {
+            "event_type": "Creation",
+            "name": "MAGIA Crăciunului",
+            "date": "2016-11-20"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

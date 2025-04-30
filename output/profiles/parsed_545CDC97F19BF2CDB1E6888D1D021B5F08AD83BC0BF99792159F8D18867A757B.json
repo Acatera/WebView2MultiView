@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/sentris.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Sentris",
+            "date": "2023-02-07"
+        },
+        {
+            "event_type": "Creation",
+            "name": "galante.ro",
+            "date": "2014-08-31"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 9
+        }
+    ]
+}

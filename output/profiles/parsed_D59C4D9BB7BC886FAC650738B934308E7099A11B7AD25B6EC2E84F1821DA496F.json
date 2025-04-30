@@ -1,0 +1,46 @@
+{
+    "url": "https://www.facebook.com/editorial.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Viorel Iliescu",
+            "date": "2022-05-18"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Bună Dimineața",
+            "date": "2022-02-18"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Medifax",
+            "date": "2022-01-29"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤",
+            "date": "2022-01-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "MediFax.ro",
+            "date": "2021-06-04"
+        },
+        {
+            "event_type": "Creation",
+            "name": "News Post",
+            "date": "2020-11-12"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/CitateFaimoase.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Citate Faimoase",
+            "date": "2018-03-02"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Citate Divine",
+            "date": "2018-03-01"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

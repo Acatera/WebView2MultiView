@@ -1,0 +1,30 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100064267323662",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Las Fierbinti SEZON NOU 2021",
+            "date": "2021-02-22"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Vấn Đỉnh Kỳ",
+            "date": "2020-10-15"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Brazil",
+            "count": 1
+        },
+        {
+            "country": "Vietnam",
+            "count": 1
+        }
+    ]
+}

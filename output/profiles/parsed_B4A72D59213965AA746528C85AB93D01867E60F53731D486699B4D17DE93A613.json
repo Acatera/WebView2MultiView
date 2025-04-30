@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/OraDeRas.official",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Ora De Ras",
+            "date": "2016-07-16"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Tutti Fruity",
+            "date": "2016-07-15"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

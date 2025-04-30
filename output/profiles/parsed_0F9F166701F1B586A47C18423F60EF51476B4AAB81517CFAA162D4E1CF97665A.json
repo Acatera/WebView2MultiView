@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/giuliaovi.27",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Sufletel",
+            "date": "2015-09-29"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Comunita",
+            "date": "2015-03-09"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 11
+        }
+    ]
+}

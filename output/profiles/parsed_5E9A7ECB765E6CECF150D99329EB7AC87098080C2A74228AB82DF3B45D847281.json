@@ -1,0 +1,41 @@
+{
+    "url": "https://www.facebook.com/stiriletv.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Stiriletv.ro",
+            "date": "2025-03-03"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Stiriletv.ro",
+            "date": "2025-03-03"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Inimă de Român",
+            "date": "2025-01-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Inimă de Român",
+            "date": "2025-01-02"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Mândru că sunt Român",
+            "date": "2024-05-27"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

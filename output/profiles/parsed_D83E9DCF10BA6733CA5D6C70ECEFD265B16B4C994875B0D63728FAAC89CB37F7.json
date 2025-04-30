@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/umorul.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Umorul",
+            "date": "2023-04-18"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Umorul",
+            "date": "2023-04-18"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Umorul e drogul",
+            "date": "2023-04-11"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Iulian Mehedint",
+            "date": "2017-09-03"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 12
+        }
+    ]
+}

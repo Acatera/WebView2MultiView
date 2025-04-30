@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/ISUCOVASNA",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "ISU Covasna",
+            "date": "2017-03-22"
+        },
+        {
+            "event_type": "Creation",
+            "name": "I.S.U.J. Covasna",
+            "date": "2012-01-12"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

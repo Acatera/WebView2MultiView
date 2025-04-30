@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100076301588688",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Mesaje Frumoase",
+            "date": "2023-10-03"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Te iubesc ,,Calafat \"",
+            "date": "2017-10-07"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 1
+        }
+    ]
+}

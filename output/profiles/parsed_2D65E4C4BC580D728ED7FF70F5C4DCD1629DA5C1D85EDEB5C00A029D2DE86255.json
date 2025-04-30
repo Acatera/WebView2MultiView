@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/directiageneralaanticoruptie",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Direcția Generală Anticorupție",
+            "date": "2019-11-27"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Directia Generala Anticoruptie",
+            "date": "2010-01-25"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

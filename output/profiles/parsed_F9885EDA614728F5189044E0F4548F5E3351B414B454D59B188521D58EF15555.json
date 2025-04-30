@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100093019407100",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "La mine acasa in Romania",
+            "date": "2023-12-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "La mine acasa in Romania",
+            "date": "2023-12-02"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Părintele Necula",
+            "date": "2023-06-04"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

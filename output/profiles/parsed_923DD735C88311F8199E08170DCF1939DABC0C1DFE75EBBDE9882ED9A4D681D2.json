@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/noidoipagina",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Noi doi",
+            "date": "2015-08-18"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Hazal Kaya & Cagatay Ulusoy,Noi doi",
+            "date": "2015-08-18"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Hazal Kaya & Cagatay Ulusoy",
+            "date": "2014-05-07"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 12
+        }
+    ]
+}

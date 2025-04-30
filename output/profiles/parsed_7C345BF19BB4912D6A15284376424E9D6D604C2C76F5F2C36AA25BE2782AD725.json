@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/stiri.srle",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Gândire prăfuită",
+            "date": "2022-05-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Citeste Andreea Gheorghe",
+            "date": "2021-11-18"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Știri.srl",
+            "date": "2021-04-16"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

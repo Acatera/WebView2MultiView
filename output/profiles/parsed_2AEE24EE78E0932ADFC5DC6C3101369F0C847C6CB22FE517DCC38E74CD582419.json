@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/A.frumoase",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Amintiri frumoase",
+            "date": "2016-12-27"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Amintiri frumoase alaturi de prietenii FB.",
+            "date": "2014-11-12"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

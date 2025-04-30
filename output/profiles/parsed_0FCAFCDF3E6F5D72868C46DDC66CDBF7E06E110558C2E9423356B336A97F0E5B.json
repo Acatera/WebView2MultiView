@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/stiicumziccom",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Stiicumzic?",
+            "date": "2016-10-31"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Sticumzic?",
+            "date": "2016-05-03"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Stiicumzic?",
+            "date": "2016-04-20"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Sticumzic?",
+            "date": "2012-08-02"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 16
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://www.facebook.com/InviereaDomnuluiNostruIisusHristos",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Învierea Domnului nostru Iisus Hristos",
+            "date": "2018-02-23"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Învierea Domnului",
+            "date": "2014-04-08"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 10
+        },
+        {
+            "country": "Greece",
+            "count": 1
+        }
+    ]
+}

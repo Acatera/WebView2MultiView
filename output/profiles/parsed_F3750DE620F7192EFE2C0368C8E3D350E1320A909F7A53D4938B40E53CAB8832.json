@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/sateledinromaniaa",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Satele din România",
+            "date": "2014-06-06"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "PRO SALUS CLUJ",
+            "date": "2014-02-11"
+        },
+        {
+            "event_type": "Creation",
+            "name": "PRO SALU CLUJ",
+            "date": "2014-02-11"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

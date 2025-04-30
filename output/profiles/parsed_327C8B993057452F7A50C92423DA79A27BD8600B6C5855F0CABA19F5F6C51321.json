@@ -1,0 +1,29 @@
+{
+    "url": "https://www.facebook.com/oficialvreisarazi",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Vrei Sa Râzi ?",
+            "date": "2017-01-13"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 16
+        },
+        {
+            "country": "Germany",
+            "count": 1
+        },
+        {
+            "country": "United States",
+            "count": 1
+        }
+    ]
+}

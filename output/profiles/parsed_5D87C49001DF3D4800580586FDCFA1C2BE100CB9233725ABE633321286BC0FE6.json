@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/miscarearomaniasuverana",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Mișcarea România Suverană",
+            "date": "2022-12-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "PNȚCD - Organizația Națională de Femei",
+            "date": "2017-08-02"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Organizatia de Femei a Partidului Miscarea Populara Giurgiu",
+            "date": "2014-04-02"
+        }
+    ],
+    "page_managers": []
+}

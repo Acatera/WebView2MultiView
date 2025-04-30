@@ -1,0 +1,41 @@
+{
+    "url": "https://www.facebook.com/Stefania.AndreeeaaaOfficialPage",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Regretele Unei Femei",
+            "date": "2021-10-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Doar noi doi",
+            "date": "2016-07-01"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Amintirile cu noi",
+            "date": "2016-06-22"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Amintiri ascunse .",
+            "date": "2016-05-25"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Lacrimi ascunse .",
+            "date": "2015-10-26"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

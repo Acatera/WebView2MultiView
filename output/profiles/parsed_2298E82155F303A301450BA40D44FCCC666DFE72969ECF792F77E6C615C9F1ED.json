@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/baba.cloanta.oficial",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Babuta cea Amuzanta",
+            "date": "2020-05-07"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "BabaCloanta cea Amuzanta",
+            "date": "2020-04-30"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "BabaCloanta",
+            "date": "2016-01-11"
+        },
+        {
+            "event_type": "Creation",
+            "name": "FanicaHamsterica",
+            "date": "2016-01-11"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

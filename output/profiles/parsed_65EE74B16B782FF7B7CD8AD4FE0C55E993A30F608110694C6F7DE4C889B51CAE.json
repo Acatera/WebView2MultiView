@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/uniunea.fortelor.patriei",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "UFP - Uniunea Fortelor Patriotice",
+            "date": "2022-05-27"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Uniunea Fortelor Patriotice",
+            "date": "2022-05-27"
+        }
+    ],
+    "page_managers": []
+}

@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/vedeteromania.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Vedete România",
+            "date": "2021-02-16"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Stirile Romania",
+            "date": "2020-07-27"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Viralele România",
+            "date": "2020-07-20"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Viralele Zilei",
+            "date": "2015-09-28"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

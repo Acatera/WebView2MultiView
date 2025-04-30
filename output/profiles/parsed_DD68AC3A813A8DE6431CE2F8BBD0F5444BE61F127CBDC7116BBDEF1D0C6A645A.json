@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/oinimafericita",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "O inimă fericită",
+            "date": "2019-08-15"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 11
+        },
+        {
+            "country": "Switzerland",
+            "count": 1
+        }
+    ]
+}

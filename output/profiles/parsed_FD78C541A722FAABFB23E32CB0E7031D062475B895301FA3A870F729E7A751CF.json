@@ -1,0 +1,46 @@
+{
+    "url": "https://www.facebook.com/danvpffrog",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Romania Noastra Retete-culinare.net",
+            "date": "2020-06-07"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Romania Noastra",
+            "date": "2020-03-16"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Magia Romania Noastra",
+            "date": "2020-03-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Magia Noastra",
+            "date": "2020-03-06"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Magia Crăciunului",
+            "date": "2018-10-31"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Bucuria Crăciunului",
+            "date": "2018-10-27"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

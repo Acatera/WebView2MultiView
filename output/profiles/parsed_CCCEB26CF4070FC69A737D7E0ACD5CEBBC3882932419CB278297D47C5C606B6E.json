@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/iubireaoficial",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Te seaca iubirea",
+            "date": "2016-06-16"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Fumul tigarii",
+            "date": "2016-04-13"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

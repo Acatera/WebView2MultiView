@@ -1,0 +1,71 @@
+{
+    "url": "https://www.facebook.com/karma.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Karma•",
+            "date": "2023-10-14"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Horoscop",
+            "date": "2023-05-24"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "George Stancu",
+            "date": "2023-05-07"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Karma •",
+            "date": "2023-04-03"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "George Stancu",
+            "date": "2023-03-19"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Karma",
+            "date": "2023-02-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "George Stancu•",
+            "date": "2023-02-04"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "K a r m a •",
+            "date": "2022-12-03"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "K a r m a •",
+            "date": "2022-12-03"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "George Stancu",
+            "date": "2022-11-18"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Karma",
+            "date": "2022-09-01"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

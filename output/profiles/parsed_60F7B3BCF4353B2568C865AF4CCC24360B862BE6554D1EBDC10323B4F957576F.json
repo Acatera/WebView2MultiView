@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/GalatiPartidulNeamulRomanesc",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Galati - Partidul Neamul Romanesc",
+            "date": "2018-10-25"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        },
+        {
+            "country": "Spain",
+            "count": 1
+        }
+    ]
+}

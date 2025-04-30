@@ -1,0 +1,29 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=61551458330296",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "MARIA",
+            "date": "2023-09-11"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        },
+        {
+            "country": "Brazil",
+            "count": 1
+        },
+        {
+            "country": "United Kingdom",
+            "count": 1
+        }
+    ]
+}

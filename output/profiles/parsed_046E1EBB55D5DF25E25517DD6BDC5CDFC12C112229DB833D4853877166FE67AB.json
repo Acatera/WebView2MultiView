@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/DoarFazeTari",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Faze Tari",
+            "date": "2016-09-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Clipuri Tari",
+            "date": "2015-08-10"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "ClipuriTari.net",
+            "date": "2014-11-18"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Clipuri Tari",
+            "date": "2014-11-17"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 9
+        }
+    ]
+}

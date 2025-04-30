@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/DozaTaDeRas.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Doza ta de Ras",
+            "date": "2013-09-18"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Doza de ras",
+            "date": "2013-09-18"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

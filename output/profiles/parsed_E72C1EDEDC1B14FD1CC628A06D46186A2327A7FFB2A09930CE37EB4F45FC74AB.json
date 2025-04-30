@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100064102390729",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "România Autentică",
+            "date": "2025-01-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Anastasia de România",
+            "date": "2019-10-31"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Anastasia Art",
+            "date": "2016-03-28"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 1
+        }
+    ]
+}

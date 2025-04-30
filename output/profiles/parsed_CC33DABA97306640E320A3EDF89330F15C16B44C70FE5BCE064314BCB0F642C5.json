@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100064865191344",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "ALDE - Pucioasa",
+            "date": "2015-06-27"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Partidul Liberal Reformator Pucioasa",
+            "date": "2014-10-05"
+        }
+    ],
+    "page_managers": []
+}

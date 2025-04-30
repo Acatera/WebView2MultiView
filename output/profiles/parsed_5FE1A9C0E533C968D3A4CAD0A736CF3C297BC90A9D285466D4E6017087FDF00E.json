@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/isudj.igsu.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "ISU Dolj",
+            "date": "2017-03-22"
+        },
+        {
+            "event_type": "Creation",
+            "name": "ISU DOLJ",
+            "date": "2015-07-01"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

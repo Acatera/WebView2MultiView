@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100064451391407",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Merge",
+            "name": "Observatorul",
+            "date": "2022-02-18"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Observatorul",
+            "date": "2022-01-26"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Observatorul",
+            "date": "2022-01-26"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Poze cu mesaje",
+            "date": "2013-05-07"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

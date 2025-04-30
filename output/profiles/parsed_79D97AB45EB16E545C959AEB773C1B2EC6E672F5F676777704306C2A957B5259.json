@@ -1,0 +1,81 @@
+{
+    "url": "https://www.facebook.com/GVasileGeorgian",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Gheorghe Vasile-Georgian",
+            "date": "2022-06-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Dj George",
+            "date": "2022-04-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Gheorghe Vasile-Georgian",
+            "date": "2022-03-12"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Dj George A.",
+            "date": "2021-08-27"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Dj George",
+            "date": "2021-08-20"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Dj George A.",
+            "date": "2019-03-20"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Dj George A",
+            "date": "2016-07-14"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Dj GeorgeA",
+            "date": "2016-05-04"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "GeorgeA",
+            "date": "2016-04-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "George A",
+            "date": "2016-04-27"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Dj George A",
+            "date": "2016-02-12"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "George A",
+            "date": "2016-01-22"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Dj George A",
+            "date": "2014-08-06"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

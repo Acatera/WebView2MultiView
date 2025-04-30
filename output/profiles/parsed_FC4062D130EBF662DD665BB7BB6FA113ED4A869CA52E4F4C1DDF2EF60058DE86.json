@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/neamarinsiprietenii",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Nea Mărin fanpage",
+            "date": "2022-02-22"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Nea Mărin și prietenii lui",
+            "date": "2021-10-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Nea Mărin și prietenii lui",
+            "date": "2021-10-28"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Nea Mărin",
+            "date": "2017-07-23"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

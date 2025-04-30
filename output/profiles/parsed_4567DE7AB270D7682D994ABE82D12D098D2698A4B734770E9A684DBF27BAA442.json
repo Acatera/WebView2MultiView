@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100083444954811",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Să râdem împreuna",
+            "date": "2022-06-10"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Să radeam împreuna",
+            "date": "2022-06-09"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

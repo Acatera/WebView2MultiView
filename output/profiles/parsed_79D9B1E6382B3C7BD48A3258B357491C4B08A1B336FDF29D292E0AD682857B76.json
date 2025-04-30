@@ -1,0 +1,46 @@
+{
+    "url": "https://www.facebook.com/sufletdinromania",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Suflet De Roman",
+            "date": "2023-11-19"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Citate Web",
+            "date": "2020-05-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Citate",
+            "date": "2019-01-03"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Citate din Ardeal",
+            "date": "2018-10-18"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Unu din Ardeal",
+            "date": "2017-04-25"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Unu din ardeal",
+            "date": "2017-04-25"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

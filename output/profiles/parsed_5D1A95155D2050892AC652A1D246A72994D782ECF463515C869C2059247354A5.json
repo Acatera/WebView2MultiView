@@ -1,0 +1,41 @@
+{
+    "url": "https://www.facebook.com/CaiVerzi.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Cai verzi",
+            "date": "2018-11-16"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Clipuri verzi",
+            "date": "2018-11-08"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Clipuri virale",
+            "date": "2018-02-03"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Pagina clipuri virale",
+            "date": "2018-01-28"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Clipuri virale",
+            "date": "2018-01-10"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

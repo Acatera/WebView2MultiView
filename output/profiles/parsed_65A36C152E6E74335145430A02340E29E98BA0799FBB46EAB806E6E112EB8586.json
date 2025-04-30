@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/DumnezeuEstePretutindeni",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Părintele Arsenie Boca",
+            "date": "2022-04-01"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Dumnezeu Nu Vrea Razboi",
+            "date": "2022-03-02"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Dumnezeu cu noi",
+            "date": "2022-02-22"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

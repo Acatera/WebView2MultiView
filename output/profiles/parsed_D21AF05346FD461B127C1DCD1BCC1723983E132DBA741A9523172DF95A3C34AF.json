@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/uniuneamonarhistilor",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Uniunea Monarhiștilor din România",
+            "date": "2019-11-04"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Uniunea Monarhiștilor din Romania",
+            "date": "2019-10-26"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Restauratia Monarhiei in Romania",
+            "date": "2014-07-05"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

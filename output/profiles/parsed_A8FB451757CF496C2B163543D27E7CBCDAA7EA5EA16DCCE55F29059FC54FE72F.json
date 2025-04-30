@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100078637150563",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Pasiune pentru Gatit",
+            "date": "2022-02-25"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "url": "https://www.facebook.com/PufoseniaZilei",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Pufoşenia Zilei",
+            "date": "2016-04-06"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Pufoşenia",
+            "date": "2016-04-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Pufoşenia Zilei Neam",
+            "date": "2016-02-29"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Neam Zmeul cel Rău",
+            "date": "2016-02-08"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Neam de Traistă",
+            "date": "2015-10-13"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Eustache Traistă",
+            "date": "2014-05-04"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

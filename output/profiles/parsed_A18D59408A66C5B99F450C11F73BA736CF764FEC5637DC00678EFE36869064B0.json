@@ -1,0 +1,55 @@
+{
+    "url": "https://www.facebook.com/eur0dance",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Amintiri Din Copilarie",
+            "date": "2025-03-15"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Suflet Cald",
+            "date": "2023-02-17"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Amintiri Din Copilarie",
+            "date": "2022-12-20"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Amintiri Din Copilarie",
+            "date": "2022-12-20"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Parintele Calistrat",
+            "date": "2022-12-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Best Eurodance Music Hits",
+            "date": "2020-10-25"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Muzica Eurodance Music Hits",
+            "date": "2019-11-07"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "United Kingdom",
+            "count": 3
+        },
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

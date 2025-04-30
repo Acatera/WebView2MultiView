@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/zodiiromania",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Zodii Romania",
+            "date": "2022-04-15"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Zodii.net",
+            "date": "2010-09-06"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 9
+        }
+    ]
+}

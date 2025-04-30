@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/TraindCuSperanta01",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Te ıubesc",
+            "date": "2022-01-26"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Te ıubesc",
+            "date": "2022-01-26"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Traind Cu Speranta",
+            "date": "2014-01-24"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

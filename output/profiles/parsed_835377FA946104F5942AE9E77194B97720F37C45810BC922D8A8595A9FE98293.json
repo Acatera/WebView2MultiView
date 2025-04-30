@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/Un.Suflet",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Un suflet",
+            "date": "2017-09-21"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Un suflet bun,un gand curat",
+            "date": "2014-05-04"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/Gravidutesibebei",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Poze pentru gravidute si bebei",
+            "date": "2016-05-01"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Gravidute si bebei",
+            "date": "2015-10-08"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Statusuri pentru gravidute si bebei",
+            "date": "2015-09-29"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Statusuri.",
+            "date": "2011-07-03"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

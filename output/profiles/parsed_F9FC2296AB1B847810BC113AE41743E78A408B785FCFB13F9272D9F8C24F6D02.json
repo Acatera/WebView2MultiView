@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100084868954947",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Casa de la țară",
+            "date": "2024-10-07"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Casa de la țară",
+            "date": "2024-10-07"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Te seaca iubirea",
+            "date": "2024-05-21"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Stiri pentru toti",
+            "date": "2022-08-15"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

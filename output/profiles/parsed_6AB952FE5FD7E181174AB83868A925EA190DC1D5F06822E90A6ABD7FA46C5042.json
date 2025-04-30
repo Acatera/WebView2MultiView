@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/eurodancee",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Muzica Eurodance",
+            "date": "2018-01-25"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Muzica",
+            "date": "2018-01-21"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 11
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "url": "https://www.facebook.com/neatzaromania",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Neatza Romania",
+            "date": "2023-11-22"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Neatza Romania - DjNunti.ro",
+            "date": "2023-04-26"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Neatza Romania - Radio FX Net",
+            "date": "2023-04-13"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Neatza Romania - Radio FX Net",
+            "date": "2023-04-13"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Neatza Romania",
+            "date": "2022-11-02"
+        },
+        {
+            "event_type": "Creation",
+            "name": "E-neatza.Ro",
+            "date": "2013-04-07"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

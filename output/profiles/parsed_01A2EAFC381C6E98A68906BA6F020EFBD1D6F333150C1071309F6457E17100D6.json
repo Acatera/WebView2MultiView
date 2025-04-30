@@ -1,0 +1,30 @@
+{
+    "url": "https://www.facebook.com/uk.sosro.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Partidul S.O.S România - Filiala Marea Britanie",
+            "date": "2023-06-07"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Partidul S.O.S România - Filiala UK",
+            "date": "2023-06-07"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        },
+        {
+            "country": "United Kingdom",
+            "count": 1
+        }
+    ]
+}

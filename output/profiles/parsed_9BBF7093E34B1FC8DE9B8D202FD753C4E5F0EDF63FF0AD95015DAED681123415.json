@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/departeintaristraine",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Departe de Casă",
+            "date": "2019-08-10"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 10
+        }
+    ]
+}

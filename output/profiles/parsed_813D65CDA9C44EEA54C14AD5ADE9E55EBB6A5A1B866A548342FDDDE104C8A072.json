@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/pgg.independenta",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "PGG Independența",
+            "date": "2024-11-29"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Partidul S.O.S România, Filiala Independența, Galați",
+            "date": "2023-10-30"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 1
+        }
+    ]
+}

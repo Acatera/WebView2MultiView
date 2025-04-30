@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/ortodoxia.me",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Ortodoxia",
+            "date": "2016-02-17"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 18
+        },
+        {
+            "country": "Greece",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/AstayRomania",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "România",
+            "date": "2024-05-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "România",
+            "date": "2024-05-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Asta-i România",
+            "date": "2024-02-16"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Povești",
+            "date": "2024-01-14"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

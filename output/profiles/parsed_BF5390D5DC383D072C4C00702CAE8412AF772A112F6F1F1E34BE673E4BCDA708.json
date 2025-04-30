@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/doctorulonline",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Doctorul de Suflete",
+            "date": "2017-02-28"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Doctorul Vostru",
+            "date": "2016-09-25"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 16
+        }
+    ]
+}

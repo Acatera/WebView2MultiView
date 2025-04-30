@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/www.politiaromana.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Poliția Română",
+            "date": "2021-06-10"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Poliția Română",
+            "date": "2021-06-10"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Politia Romana",
+            "date": "2018-07-19"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Politia Romana - www.politiaromana.ro",
+            "date": "2014-06-30"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

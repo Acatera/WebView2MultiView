@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100063536652315",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Stiai ca?",
+            "date": "2019-01-23"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 11
+        },
+        {
+            "country": "Syria",
+            "count": 1
+        }
+    ]
+}

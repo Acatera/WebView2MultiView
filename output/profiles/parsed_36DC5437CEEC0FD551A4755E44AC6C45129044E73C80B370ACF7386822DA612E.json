@@ -1,0 +1,41 @@
+{
+    "url": "https://www.facebook.com/love4ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Romania Time",
+            "date": "2024-05-15"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Signatures.ro",
+            "date": "2024-02-06"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Organizația",
+            "date": "2023-12-08"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Omu Subțâre",
+            "date": "2016-06-13"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Omu' Subțâre",
+            "date": "2013-06-08"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 8
+        }
+    ]
+}

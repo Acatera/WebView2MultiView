@@ -1,0 +1,44 @@
+{
+    "url": "https://www.facebook.com/VIRALSTIRI",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "ȘTIRI",
+            "date": "2021-11-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "ȘTIRI",
+            "date": "2021-11-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Razi de mori",
+            "date": "2017-12-06"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Razi de mori (Razidemori.Net)",
+            "date": "2011-06-26"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        },
+        {
+            "country": "Moldova",
+            "count": 2
+        },
+        {
+            "country": "Ireland",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/avramfloreaoficial",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Avram Florea",
+            "date": "2016-06-30"
+        },
+        {
+            "event_type": "Creation",
+            "name": "avramflorea.ro",
+            "date": "2016-04-13"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/dor.de.romania.frumoasa",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Dor de Romania",
+            "date": "2017-08-31"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        },
+        {
+            "country": "Germany",
+            "count": 1
+        }
+    ]
+}

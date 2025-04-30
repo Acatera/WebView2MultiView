@@ -1,0 +1,34 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100067222212745",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "DUMNEZEU Există",
+            "date": "2021-11-22"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Dumnezeu există",
+            "date": "2021-03-30"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        },
+        {
+            "country": "Moldova",
+            "count": 2
+        },
+        {
+            "country": "Ireland",
+            "count": 1
+        }
+    ]
+}

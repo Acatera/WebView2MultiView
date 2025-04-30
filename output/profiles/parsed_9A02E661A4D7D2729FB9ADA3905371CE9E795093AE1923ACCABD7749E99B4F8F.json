@@ -1,0 +1,41 @@
+{
+    "url": "https://www.facebook.com/credintasirugaciuni",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Îngerii ce ne privesc de sus, Credință și Rugăciuni",
+            "date": "2020-11-03"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Îngerii ce ne privesc de sus",
+            "date": "2020-10-15"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ingerii ce ne privesc de sus Mesaje frumoase",
+            "date": "2020-09-27"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ingerii ce ne privesc de sus Mesaje",
+            "date": "2020-09-15"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Ingerii ce ne privesc de sus",
+            "date": "2013-02-09"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

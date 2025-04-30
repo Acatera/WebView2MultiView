@@ -1,0 +1,35 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100092836671961",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Suflet Românesc",
+            "date": "2024-10-07"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Suflet Românesc",
+            "date": "2024-10-07"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Alături de Părintele Necula",
+            "date": "2023-05-30"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        },
+        {
+            "country": "United Kingdom",
+            "count": 2
+        }
+    ]
+}

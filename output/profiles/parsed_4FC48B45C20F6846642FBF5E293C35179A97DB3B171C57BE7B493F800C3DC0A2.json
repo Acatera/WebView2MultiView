@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/VersuriRap",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Versuri Rap",
+            "date": "2021-03-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Versuri R",
+            "date": "2021-02-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Versuri Rap",
+            "date": "2016-10-23"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Foc şi Apă",
+            "date": "2016-10-09"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/SfantulEfremNou",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Sfântul Efrem cel Nou",
+            "date": "2014-03-06"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 15
+        },
+        {
+            "country": "Greece",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/sufletdefloare1",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Suflet de floare",
+            "date": "2021-12-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Valentina VNB 12",
+            "date": "2021-12-06"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Suflet Valentina VNB",
+            "date": "2021-10-20"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

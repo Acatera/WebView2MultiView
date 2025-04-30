@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100069109445925",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Alternativa Dreapta Vrancea",
+            "date": "2019-09-29"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Forta Moldova Filiala Vrancea",
+            "date": "2016-04-10"
+        }
+    ],
+    "page_managers": []
+}

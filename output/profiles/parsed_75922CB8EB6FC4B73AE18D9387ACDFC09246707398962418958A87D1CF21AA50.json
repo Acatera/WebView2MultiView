@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100067056805206",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Pagina iubitorilor de Dumnezeu-Tu, il iubesti?",
+            "date": "2017-11-18"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Pagina iubitorilor de Dumnezeu-Tu il iubesti?",
+            "date": "2017-11-17"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

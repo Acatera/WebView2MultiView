@@ -1,0 +1,29 @@
+{
+    "url": "https://www.facebook.com/drolemonde",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Drôle de monde",
+            "date": "2021-06-28"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Armenia",
+            "count": 7
+        },
+        {
+            "country": "France",
+            "count": 1
+        },
+        {
+            "country": "Russia",
+            "count": 1
+        }
+    ]
+}

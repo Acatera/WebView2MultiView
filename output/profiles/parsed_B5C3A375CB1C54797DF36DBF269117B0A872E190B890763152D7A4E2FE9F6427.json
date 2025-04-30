@@ -1,0 +1,41 @@
+{
+    "url": "https://www.facebook.com/RomaniaUmanista",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "România Umanistă",
+            "date": "2021-06-23"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "PPU SL Filiala Sector 3",
+            "date": "2019-04-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "PUR Filiala Sector 3",
+            "date": "2018-11-08"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "PPUSL Filiala Sector 3",
+            "date": "2015-10-19"
+        },
+        {
+            "event_type": "Creation",
+            "name": "PPUSL Sector 3",
+            "date": "2015-10-19"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

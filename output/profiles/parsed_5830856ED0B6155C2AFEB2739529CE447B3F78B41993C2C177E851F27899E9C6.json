@@ -1,0 +1,61 @@
+{
+    "url": "https://www.facebook.com/georgestancu19",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "George Stancu•",
+            "date": "2024-11-08"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "George Stancu•",
+            "date": "2024-11-08"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Gandurile Mele",
+            "date": "2024-05-19"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Sacrificiul•",
+            "date": "2023-02-14"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Știri de ultimă oră",
+            "date": "2023-01-04"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Sacrificiul•",
+            "date": "2022-12-03"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Karma",
+            "date": "2022-11-19"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Sacrificiul•",
+            "date": "2019-12-27"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Sacrificiu•",
+            "date": "2019-09-22"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

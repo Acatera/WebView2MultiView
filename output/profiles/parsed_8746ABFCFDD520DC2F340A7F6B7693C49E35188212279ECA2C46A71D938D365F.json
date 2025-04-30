@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/NeaArtur",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Povesti mondene",
+            "date": "2023-12-25"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Sir Arthur",
+            "date": "2017-07-10"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 10
+        }
+    ]
+}

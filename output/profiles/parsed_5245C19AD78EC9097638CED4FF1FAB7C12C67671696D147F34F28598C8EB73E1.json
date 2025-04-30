@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/gravidutebebei",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Graviduțe și bebei",
+            "date": "2019-09-26"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 13
+        },
+        {
+            "country": "Switzerland",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100072120057138",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Partidul Libertății Iași",
+            "date": "2024-08-21"
+        },
+        {
+            "event_type": "Creation",
+            "name": "DACII Județul Iași",
+            "date": "2021-06-18"
+        }
+    ],
+    "page_managers": []
+}

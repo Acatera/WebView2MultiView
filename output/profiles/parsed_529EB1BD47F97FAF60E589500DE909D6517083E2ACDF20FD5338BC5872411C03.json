@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/dragoste.si.suflet",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Dragoste si Suflet",
+            "date": "2019-08-31"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Un suflet bun,un gand curat",
+            "date": "2017-09-13"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

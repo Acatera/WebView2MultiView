@@ -1,0 +1,29 @@
+{
+    "url": "https://www.facebook.com/cosminavram.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Cosmin Avram",
+            "date": "2011-01-21"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        },
+        {
+            "country": "Italy",
+            "count": 2
+        },
+        {
+            "country": "Thailand",
+            "count": 1
+        }
+    ]
+}

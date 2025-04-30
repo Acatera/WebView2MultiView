@@ -1,0 +1,33 @@
+{
+    "url": "https://www.facebook.com/maredphot",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "MARED l PHOTOGRAPHY",
+            "date": "2013-08-06"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Egypt",
+            "count": 18
+        },
+        {
+            "country": "Ethiopia",
+            "count": 4
+        },
+        {
+            "country": "Chile",
+            "count": 1
+        },
+        {
+            "country": "Saudi Arabia",
+            "count": 1
+        }
+    ]
+}

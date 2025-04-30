@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100044693856537",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Razi cu noi",
+            "date": "2020-05-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Costel Razi cu noi",
+            "date": "2020-05-07"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Costel Razi",
+            "date": "2020-04-28"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Costel",
+            "date": "2016-01-16"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

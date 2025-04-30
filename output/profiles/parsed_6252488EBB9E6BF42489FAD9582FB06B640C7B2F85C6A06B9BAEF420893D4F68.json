@@ -1,0 +1,32 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=61572403288929",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false,
+        "has_run": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Romania Culturala",
+            "date": "2025-02-07"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Romania Culturala",
+            "date": "2025-02-07"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Suflet Romanesc",
+            "date": "2025-01-20"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Ireland",
+            "count": 1
+        }
+    ]
+}

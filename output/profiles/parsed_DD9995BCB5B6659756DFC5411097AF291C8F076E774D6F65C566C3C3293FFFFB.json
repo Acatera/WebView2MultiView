@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100064250854110",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Las Fierbinti FanClub",
+            "date": "2021-03-03"
+        },
+        {
+            "event_type": "Creation",
+            "name": "ขายสินค้า",
+            "date": "2016-09-12"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Vietnam",
+            "count": 5
+        }
+    ]
+}

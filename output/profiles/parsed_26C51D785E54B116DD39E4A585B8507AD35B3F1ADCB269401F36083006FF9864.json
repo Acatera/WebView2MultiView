@@ -1,0 +1,56 @@
+{
+    "url": "https://www.facebook.com/familiabecali",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Familia",
+            "date": "2022-09-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Familia",
+            "date": "2022-09-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Familia Becali",
+            "date": "2022-01-25"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Dulce Iubire",
+            "date": "2017-06-19"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Dulce Romania",
+            "date": "2017-05-17"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Te iubesc Romania",
+            "date": "2017-05-12"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Te iubesc.",
+            "date": "2016-05-30"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Te iubesc, Pitic.",
+            "date": "2014-08-16"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

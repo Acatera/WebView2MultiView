@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/roctvtimis",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "ROC TV - Timiș",
+            "date": "2022-05-13"
+        },
+        {
+            "event_type": "Creation",
+            "name": "ROC TV - Timișoara",
+            "date": "2021-10-09"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

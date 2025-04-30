@@ -1,0 +1,56 @@
+{
+    "url": "https://www.facebook.com/AdoreAcasa",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Acasă",
+            "date": "2020-04-22"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Acasa",
+            "date": "2019-12-25"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Acasă",
+            "date": "2018-11-25"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Acasa",
+            "date": "2018-08-06"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Acasă",
+            "date": "2018-03-31"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Acasa",
+            "date": "2018-03-22"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Acasă",
+            "date": "2018-03-18"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Acasa",
+            "date": "2018-03-12"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

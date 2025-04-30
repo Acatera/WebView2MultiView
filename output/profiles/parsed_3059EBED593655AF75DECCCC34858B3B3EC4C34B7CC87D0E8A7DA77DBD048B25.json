@@ -1,0 +1,56 @@
+{
+    "url": "https://www.facebook.com/TraiescRo",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Bunica",
+            "date": "2024-06-05"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Bunica",
+            "date": "2024-06-05"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Plaiul natal",
+            "date": "2024-03-02"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Traiesc in Romania",
+            "date": "2023-12-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Traiesc in Romania",
+            "date": "2023-12-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Secretele bunicilor",
+            "date": "2023-10-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Secretele bunicilor",
+            "date": "2023-10-09"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Leacuri străbune",
+            "date": "2023-08-30"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

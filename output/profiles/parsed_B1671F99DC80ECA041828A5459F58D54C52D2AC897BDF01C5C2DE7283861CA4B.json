@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/cabinetdiana",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Cabinet Europarlamentar - Diana Iovanovici-Șoșoacă",
+            "date": "2024-07-17"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Cabinet parlamentar - Diana Iovanovici-Șoșoacă",
+            "date": "2022-03-17"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

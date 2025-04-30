@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/UliseToaderPrimar",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Ulise Toader",
+            "date": "2019-04-03"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

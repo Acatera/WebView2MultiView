@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=61553765674322",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Romania mea frumoasa",
+            "date": "2023-11-22"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

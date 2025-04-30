@@ -1,0 +1,35 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100023686410690",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Monde Intéressant",
+            "date": "2021-07-07"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Օրվա անցուդարձ",
+            "date": "2020-11-30"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Առք ու վաճառք Զանգեզուրում",
+            "date": "2019-12-08"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Armenia",
+            "count": 7
+        },
+        {
+            "country": "France",
+            "count": 1
+        }
+    ]
+}

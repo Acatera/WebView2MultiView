@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/boruzzz",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Sebastian Boruz",
+            "date": "2019-07-06"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Sebastian BM",
+            "date": "2019-06-12"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

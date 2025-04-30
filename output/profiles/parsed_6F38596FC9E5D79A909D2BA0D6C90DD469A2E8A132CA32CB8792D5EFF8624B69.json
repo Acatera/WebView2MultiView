@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/romaniisuntpetumblr",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "România ta",
+            "date": "2022-01-25"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Tumblr Romania",
+            "date": "2014-03-30"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

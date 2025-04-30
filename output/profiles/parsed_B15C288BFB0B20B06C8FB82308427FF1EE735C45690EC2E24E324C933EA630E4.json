@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100064392383357",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Un strop de iubire",
+            "date": "2023-05-23"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Pagina Mela",
+            "date": "2019-11-14"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Cronologie Mela",
+            "date": "2018-12-29"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

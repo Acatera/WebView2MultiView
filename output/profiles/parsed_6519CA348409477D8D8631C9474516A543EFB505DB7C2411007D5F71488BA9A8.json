@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/bancuriofficial",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Bancuri noi",
+            "date": "2017-12-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Bancuri noi noi",
+            "date": "2017-12-13"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Bancuri",
+            "date": "2012-09-22"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

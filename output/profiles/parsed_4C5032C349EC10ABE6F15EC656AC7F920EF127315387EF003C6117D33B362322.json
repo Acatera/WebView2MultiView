@@ -1,0 +1,22 @@
+{
+    "url": "https://www.facebook.com/viralnews.romania",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true,
+        "has_run": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "ViralNews.ro",
+            "date": "2018-05-15"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/bunacmf",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Buna, ce mai faci?",
+            "date": "2024-01-07"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Bunaaaaaaa, ce mai faci?",
+            "date": "2017-08-08"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

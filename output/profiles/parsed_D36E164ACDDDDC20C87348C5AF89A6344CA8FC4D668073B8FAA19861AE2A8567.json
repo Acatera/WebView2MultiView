@@ -1,0 +1,61 @@
+{
+    "url": "https://www.facebook.com/viatameaofficialpage",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Viața mea",
+            "date": "2017-01-17"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Viataa meaa",
+            "date": "2017-01-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Viata de sofer",
+            "date": "2015-10-31"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Perechea potrivita",
+            "date": "2015-09-26"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Fc Steaua Bucuresti campioana noastra",
+            "date": "2015-09-04"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Steaua fc",
+            "date": "2015-08-26"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Campioni suntem noi steaua bucuresti",
+            "date": "2015-08-22"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Campioni suntem noi Steaua bucuresti",
+            "date": "2015-08-01"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Muzicavip.org",
+            "date": "2015-02-04"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 13
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/miziromania",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "mizi.ro",
+            "date": "2021-11-05"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Mizi.ro",
+            "date": "2021-11-05"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        }
+    ]
+}

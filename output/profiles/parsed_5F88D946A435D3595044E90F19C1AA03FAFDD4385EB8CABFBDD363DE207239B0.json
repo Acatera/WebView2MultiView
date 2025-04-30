@@ -1,0 +1,29 @@
+{
+    "url": "https://www.facebook.com/Florisipeisaje7",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Flori Si Peisaje",
+            "date": "2013-10-01"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        },
+        {
+            "country": "Moldova",
+            "count": 2
+        },
+        {
+            "country": "Ireland",
+            "count": 1
+        }
+    ]
+}

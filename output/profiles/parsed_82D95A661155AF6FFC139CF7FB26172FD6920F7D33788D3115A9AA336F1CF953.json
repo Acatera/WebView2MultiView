@@ -1,0 +1,49 @@
+{
+    "url": "https://www.facebook.com/eRomanasul",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Ardelenii",
+            "date": "2018-07-23"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Lacrimi si Iubiri. Ardelenii",
+            "date": "2018-07-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Lacrimi si Iubiri",
+            "date": "2018-07-12"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Lacrimi si Iubiri Evitax.ro",
+            "date": "2016-06-25"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Lacrimi si Iubiri",
+            "date": "2014-07-27"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        },
+        {
+            "country": "Moldova",
+            "count": 2
+        },
+        {
+            "country": "Ireland",
+            "count": 1
+        }
+    ]
+}

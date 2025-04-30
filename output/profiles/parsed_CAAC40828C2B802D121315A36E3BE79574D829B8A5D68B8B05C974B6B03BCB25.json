@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/partidulsosro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Partidul S.O.S România",
+            "date": "2022-05-27"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

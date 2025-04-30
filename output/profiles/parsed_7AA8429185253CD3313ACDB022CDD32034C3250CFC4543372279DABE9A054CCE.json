@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/LumiinaCredintei",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Lumina Credintei",
+            "date": "2025-03-17"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Crestin Ortodox",
+            "date": "2017-11-04"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Crestin ortodox",
+            "date": "2016-05-17"
+        },
+        {
+            "event_type": "Creation",
+            "name": "De ce sunt crestin ortodox",
+            "date": "2015-11-24"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

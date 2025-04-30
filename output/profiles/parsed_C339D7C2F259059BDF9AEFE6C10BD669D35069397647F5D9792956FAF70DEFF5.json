@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/TotulPentruTine.Ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Totul pentru Tine",
+            "date": "2017-12-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ingeri Totul pentru Tine",
+            "date": "2017-11-27"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Totul pentru Tine",
+            "date": "2017-10-07"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Totul PT UN Inger",
+            "date": "2010-10-15"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 8
+        }
+    ]
+}

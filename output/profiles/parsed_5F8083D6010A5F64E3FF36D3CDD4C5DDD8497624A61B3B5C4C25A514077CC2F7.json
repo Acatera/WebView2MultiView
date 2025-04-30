@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/baiatulinspirat1",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Iubesc Natura",
+            "date": "2024-03-08"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Băiatul Inspirat",
+            "date": "2022-03-14"
+        },
+        {
+            "event_type": "Creation",
+            "name": "E R R O R",
+            "date": "2018-10-14"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

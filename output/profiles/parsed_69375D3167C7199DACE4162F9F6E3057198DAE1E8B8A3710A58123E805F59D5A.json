@@ -1,0 +1,30 @@
+{
+    "url": "https://www.facebook.com/bonneinfo2021",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Bonne info",
+            "date": "2021-04-03"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Tendance Fashion",
+            "date": "2017-10-08"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Armenia",
+            "count": 8
+        },
+        {
+            "country": "France",
+            "count": 1
+        }
+    ]
+}

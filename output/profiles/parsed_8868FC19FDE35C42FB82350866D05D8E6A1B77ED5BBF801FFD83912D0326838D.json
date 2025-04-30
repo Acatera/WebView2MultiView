@@ -1,0 +1,34 @@
+{
+    "url": "https://www.facebook.com/SfintiiMihailsiGavril",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Sfinții Arhangheli Mihail și Gavril",
+            "date": "2023-08-16"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Sfinții Mihail și Gavril",
+            "date": "2014-03-26"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 10
+        },
+        {
+            "country": "Greece",
+            "count": 1
+        },
+        {
+            "country": "Spain",
+            "count": 1
+        }
+    ]
+}

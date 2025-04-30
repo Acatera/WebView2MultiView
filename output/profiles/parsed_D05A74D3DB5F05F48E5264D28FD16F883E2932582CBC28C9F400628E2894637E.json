@@ -1,0 +1,46 @@
+{
+    "url": "https://www.facebook.com/e.neatza",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "E-neatza.ro",
+            "date": "2016-08-30"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "E-neata.ro",
+            "date": "2016-08-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Cufarul cu rochite",
+            "date": "2016-03-10"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Tricouri Personalizate",
+            "date": "2016-02-08"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Tricouri Personalizate Cool",
+            "date": "2015-08-21"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Tricouri personalizate cool",
+            "date": "2013-08-18"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://www.facebook.com/PartidulNeamulRomanescSalaj",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Salaj - Partidul Neamul Romanesc",
+            "date": "2019-02-14"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        },
+        {
+            "country": "Spain",
+            "count": 1
+        }
+    ]
+}

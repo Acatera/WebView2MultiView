@@ -1,0 +1,39 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100066830015126",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "ȘTIRI Plus",
+            "date": "2021-03-25"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "News Plus",
+            "date": "2021-03-18"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Hourly News Plus",
+            "date": "2020-11-26"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        },
+        {
+            "country": "Ireland",
+            "count": 1
+        },
+        {
+            "country": "Moldova",
+            "count": 1
+        }
+    ]
+}

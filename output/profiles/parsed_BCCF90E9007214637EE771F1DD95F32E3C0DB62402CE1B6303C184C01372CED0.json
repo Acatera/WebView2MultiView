@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/TraditiidinBatraniRO",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Traditii Romanesti",
+            "date": "2020-09-27"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Traditii Romanesti Becali",
+            "date": "2020-09-18"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Traditii Romanesti Becali",
+            "date": "2020-09-18"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Gigi Becali",
+            "date": "2018-02-20"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 9
+        }
+    ]
+}

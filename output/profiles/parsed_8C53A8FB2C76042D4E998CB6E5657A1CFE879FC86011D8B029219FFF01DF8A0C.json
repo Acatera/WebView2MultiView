@@ -1,0 +1,59 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100083590601710",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "In your world",
+            "date": "2024-11-14"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Horse city",
+            "date": "2022-12-01"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Horse club",
+            "date": "2022-10-18"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "My Cats",
+            "date": "2022-09-22"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "My Cat",
+            "date": "2022-09-09"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "My Cats",
+            "date": "2022-09-07"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Cats club",
+            "date": "2022-07-06"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Egypt",
+            "count": 18
+        },
+        {
+            "country": "Ethiopia",
+            "count": 4
+        },
+        {
+            "country": "Chile",
+            "count": 1
+        }
+    ]
+}

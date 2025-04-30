@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100064829254431",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Foarte tare frate",
+            "date": "2022-05-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Foarte tare frate",
+            "date": "2022-05-11"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Glume la Kilogram",
+            "date": "2018-05-08"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 13
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=61551824377724",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "România FM - Sport",
+            "date": "2024-05-25"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "România FM - Sport",
+            "date": "2024-05-25"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Secretele României",
+            "date": "2024-02-20"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Andreea",
+            "date": "2023-10-01"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

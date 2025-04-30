@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/www.DeStiut.ro",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "DeStiut",
+            "date": "2020-01-10"
+        },
+        {
+            "event_type": "Creation",
+            "name": "DeStiut.ro",
+            "date": "2019-12-25"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

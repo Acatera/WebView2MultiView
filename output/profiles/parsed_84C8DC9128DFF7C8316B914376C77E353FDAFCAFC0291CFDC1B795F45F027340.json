@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/pgg.tineret",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "PGG Tineret",
+            "date": "2024-11-21"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Tineret Galați- Partidul SOS România",
+            "date": "2024-02-17"
+        }
+    ],
+    "page_managers": []
+}

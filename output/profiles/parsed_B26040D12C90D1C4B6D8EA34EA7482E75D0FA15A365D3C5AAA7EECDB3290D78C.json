@@ -1,0 +1,30 @@
+{
+    "url": "https://www.facebook.com/PartidulNeamulRomanescSuceava",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Organizaţia Judeţeană Suceava a Partidului Neamul Românesc",
+            "date": "2018-04-17"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Partidul Neamul Românesc filiala Suceava",
+            "date": "2018-04-17"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 4
+        },
+        {
+            "country": "Germany",
+            "count": 1
+        }
+    ]
+}

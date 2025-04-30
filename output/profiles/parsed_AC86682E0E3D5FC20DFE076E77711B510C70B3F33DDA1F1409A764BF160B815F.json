@@ -1,0 +1,49 @@
+{
+    "url": "https://www.facebook.com/VIATAON",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "VIAȚĂ",
+            "date": "2021-11-22"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "VIAȚĂ",
+            "date": "2021-11-22"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Din Viață",
+            "date": "2021-11-11"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Din Popor",
+            "date": "2021-11-01"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Din Popor'",
+            "date": "2017-06-10"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        },
+        {
+            "country": "Moldova",
+            "count": 2
+        },
+        {
+            "country": "Ireland",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=61553355466909",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Horoscop",
+            "date": "2023-11-18"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/AutovehiculeRomanesti",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Autovehicule Românești",
+            "date": "2016-11-30"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Camioane SR",
+            "date": "2016-11-19"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Camioane SR DAC",
+            "date": "2016-11-19"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

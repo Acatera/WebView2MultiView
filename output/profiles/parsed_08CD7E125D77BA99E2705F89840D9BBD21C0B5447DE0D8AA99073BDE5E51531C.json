@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/MesajeDeSuflet",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Mesaje de suflet",
+            "date": "2012-08-03"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

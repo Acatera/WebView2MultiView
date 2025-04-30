@@ -1,0 +1,39 @@
+{
+    "url": "https://www.facebook.com/alandalaoficial2",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Alandala jr",
+            "date": "2020-03-22"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Robert Rjr Alandala",
+            "date": "2020-03-13"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Robert Rjr",
+            "date": "2017-12-18"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        },
+        {
+            "country": "Brazil",
+            "count": 1
+        },
+        {
+            "country": "United Kingdom",
+            "count": 1
+        }
+    ]
+}

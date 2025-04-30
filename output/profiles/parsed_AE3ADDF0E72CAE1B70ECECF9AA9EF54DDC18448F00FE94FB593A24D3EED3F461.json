@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/manbarsana",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Manastirea Bârsana",
+            "date": "2019-01-03"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Mănăstirea Bârsana",
+            "date": "2014-08-13"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

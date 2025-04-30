@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/gandireprafuita03",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Gândire prăfuită",
+            "date": "2018-04-27"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Fundița prăfuită",
+            "date": "2018-04-19"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Fundiţa papion",
+            "date": "2018-04-11"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Fundiţa are papion .",
+            "date": "2014-02-03"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

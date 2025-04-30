@@ -1,0 +1,29 @@
+{
+    "url": "https://www.facebook.com/eIarna",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Românașul",
+            "date": "2018-10-18"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        },
+        {
+            "country": "Moldova",
+            "count": 3
+        },
+        {
+            "country": "Ireland",
+            "count": 1
+        }
+    ]
+}

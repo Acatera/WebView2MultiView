@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/SefulBula",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Seful Bula",
+            "date": "2012-12-04"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

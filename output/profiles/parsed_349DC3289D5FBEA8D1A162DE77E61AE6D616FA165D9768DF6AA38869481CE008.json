@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/patriotii.neamului",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Patrioții",
+            "date": "2023-11-12"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "AZET",
+            "date": "2023-04-11"
+        },
+        {
+            "event_type": "Creation",
+            "name": "DIANA",
+            "date": "2017-11-04"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "url": "https://www.facebook.com/ADFloresti",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false,
+        "has_run": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Alternativa Dreapta - Organizația locală Floreşti",
+            "date": "2019-06-28"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Partidul M10 - Organizația locală Floreşti",
+            "date": "2016-02-16"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Partidul M10 - Filiala Floresti",
+            "date": "2016-02-09"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

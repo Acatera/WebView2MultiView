@@ -1,0 +1,43 @@
+{
+    "url": "https://www.facebook.com/oficialpastiladeras",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Romani nebuni Râs",
+            "date": "2018-04-12"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Romani nebuni Pastila de Râs",
+            "date": "2018-04-01"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Pastila de Râs",
+            "date": "2017-08-09"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 13
+        },
+        {
+            "country": "Germany",
+            "count": 1
+        },
+        {
+            "country": "United Kingdom",
+            "count": 1
+        },
+        {
+            "country": "United States",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://www.facebook.com/fiisuperbaofficial",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Fii Superba",
+            "date": "2018-12-11"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Esti Superba",
+            "date": "2018-05-28"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 5
+        },
+        {
+            "country": "United Kingdom",
+            "count": 1
+        }
+    ]
+}

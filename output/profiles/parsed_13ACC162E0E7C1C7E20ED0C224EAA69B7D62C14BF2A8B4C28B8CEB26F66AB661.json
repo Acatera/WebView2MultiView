@@ -1,0 +1,47 @@
+{
+    "url": "https://www.facebook.com/AlternativaDreaptaCJ",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false,
+        "has_run": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Alternativa Dreaptă Cluj",
+            "date": "2019-11-21"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Alternativa Dreapta - Cluj",
+            "date": "2019-06-17"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "M10 Cluj",
+            "date": "2018-02-14"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Partidul M10 Cluj",
+            "date": "2016-06-17"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "M10 Cluj",
+            "date": "2016-05-19"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Monica Macovei - jud. CLUJ",
+            "date": "2014-09-24"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

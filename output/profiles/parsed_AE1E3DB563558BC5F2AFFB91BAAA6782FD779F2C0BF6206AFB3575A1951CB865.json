@@ -1,0 +1,34 @@
+{
+    "url": "https://www.facebook.com/privestesiascultaa",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Priveste si Asculta",
+            "date": "2017-12-07"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Priveste si Asculta Roman de Pretutindeni.",
+            "date": "2015-11-13"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "United Kingdom",
+            "count": 2
+        },
+        {
+            "country": "Brazil",
+            "count": 1
+        },
+        {
+            "country": "Romania",
+            "count": 1
+        }
+    ]
+}

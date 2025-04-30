@@ -1,0 +1,41 @@
+{
+    "url": "https://www.facebook.com/DestineDePoveste",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Destine de poveste",
+            "date": "2024-10-26"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ella Tina Solzariu",
+            "date": "2021-09-14"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ella Tina Solzariu Team",
+            "date": "2021-01-30"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Ella Tina Solzariu",
+            "date": "2020-05-27"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Ella Tina",
+            "date": "2020-02-03"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

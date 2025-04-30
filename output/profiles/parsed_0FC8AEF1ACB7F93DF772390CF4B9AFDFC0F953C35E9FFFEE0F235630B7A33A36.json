@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100067906682577",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "ISU Salaj",
+            "date": "2015-12-01"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 3
+        }
+    ]
+}

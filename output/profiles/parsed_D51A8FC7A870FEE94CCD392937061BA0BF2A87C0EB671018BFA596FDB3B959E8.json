@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/moodblogromania",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "𝙼𝙾𝙾𝙳",
+            "date": "2022-07-11"
+        },
+        {
+            "event_type": "Creation",
+            "name": "𝙳𝚄𝙼𝙽𝙴𝚉𝙴𝚄",
+            "date": "2022-05-31"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 14
+        }
+    ]
+}

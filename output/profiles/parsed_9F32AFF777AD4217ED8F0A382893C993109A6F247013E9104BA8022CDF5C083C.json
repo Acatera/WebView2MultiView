@@ -1,0 +1,31 @@
+{
+    "url": "https://www.facebook.com/bogatiaromaneasca",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "România, țara mea frumoasă",
+            "date": "2024-11-05"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Bogăția Sufletului",
+            "date": "2022-07-29"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Mântuitorul",
+            "date": "2022-05-24"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 2
+        }
+    ]
+}

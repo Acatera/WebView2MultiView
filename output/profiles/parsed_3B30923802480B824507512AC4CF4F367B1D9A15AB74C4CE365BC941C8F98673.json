@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/GigiBecaliFCSB",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Gigi Becali Comunitate",
+            "date": "2024-06-18"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Gigi Becali Oficial",
+            "date": "2017-05-27"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 8
+        }
+    ]
+}

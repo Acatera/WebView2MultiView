@@ -1,0 +1,21 @@
+{
+    "url": "https://www.facebook.com/felicitari",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "Creation",
+            "name": "Felicitari animate si muzicale",
+            "date": "2010-11-02"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}

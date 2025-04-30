@@ -1,0 +1,26 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100044336140986",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Familia Becali",
+            "date": "2022-01-25"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Malone",
+            "date": "2017-07-10"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 6
+        }
+    ]
+}

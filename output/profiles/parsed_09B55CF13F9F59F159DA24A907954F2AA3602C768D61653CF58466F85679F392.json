@@ -1,0 +1,27 @@
+{
+    "url": "https://www.facebook.com/profile.php?id=100068032181927",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false,
+        "has_run": true
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Alianța pentru Unirea Românilor Estul Angliei",
+            "date": "2023-06-21"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Clean and shine Dunstable",
+            "date": "2020-06-28"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "United Kingdom",
+            "count": 1
+        }
+    ]
+}

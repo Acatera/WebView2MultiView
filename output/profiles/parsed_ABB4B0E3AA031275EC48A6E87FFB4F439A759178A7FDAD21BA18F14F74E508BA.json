@@ -1,0 +1,36 @@
+{
+    "url": "https://www.facebook.com/viata.si.culori",
+    "date": "2025-04-30",
+    "ad_status": {
+        "running": false
+    },
+    "account_type": "Page",
+    "history": [
+        {
+            "event_type": "NameChange",
+            "name": "Viata si culori",
+            "date": "2018-08-10"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Viata si fluturi",
+            "date": "2018-07-23"
+        },
+        {
+            "event_type": "NameChange",
+            "name": "Petale si fluturi",
+            "date": "2015-06-17"
+        },
+        {
+            "event_type": "Creation",
+            "name": "Petale de viata",
+            "date": "2014-09-11"
+        }
+    ],
+    "page_managers": [
+        {
+            "country": "Romania",
+            "count": 7
+        }
+    ]
+}
