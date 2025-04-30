@@ -9,6 +9,7 @@ namespace WebView2MultiView
 {
     public partial class ProfileTransparencyScraper : Form
     {
+        private const string folderName = "profile_transparency";
         private readonly List<string> urlsToScrape;
         private WebView2 webView;
         private Button startButton;
@@ -58,7 +59,7 @@ namespace WebView2MultiView
         private async Task StartScrapingAsync()
         {
             startButton.Enabled = false;
-            Directory.CreateDirectory("profile_transparency");
+            Directory.CreateDirectory(folderName);
 
             foreach (var url in urlsToScrape)
             {
@@ -82,7 +83,7 @@ namespace WebView2MultiView
             currentUrlHash = GetHashedUrl(url);
 
             // Check if profile file already exists
-            var fileName = Path.Combine("profile_transparency", $"profile_{currentUrlHash}.json");
+            var fileName = Path.Combine(folderName, $"profile_{currentUrlHash}.json");
             if (File.Exists(fileName))
             {
                 Console.WriteLine($"Profile file already exists for {currentUrlHash}. Skipping...");
@@ -123,7 +124,7 @@ namespace WebView2MultiView
                 }
                 if (result != null)
                 {
-                    var fileName = Path.Combine("profile_transparency", $"profile_{currentUrlHash}.json");
+                    var fileName = Path.Combine(folderName, $"profile_{currentUrlHash}.json");
                     var jsonResult = JsonSerializer.Serialize(result, new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping });
                     File.WriteAllText(fileName, jsonResult);
                 }

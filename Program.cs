@@ -13,15 +13,38 @@ static class Program
     static void Main()
     {
         ApplicationConfiguration.Initialize();
-        
+
         var accountUrls = DataUtils.GetAccountUrls();
         if (accountUrls == null || accountUrls.Length == 0)
         {
             MessageBox.Show("No account URLs found in augmented_accounts.json.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return;
         }
+        ScrapeProfileTransparency(accountUrls);
 
-        Application.Run(new ProfileTransparencyScraper(accountUrls));
+
+
+
+        // var maxScraperCount = 10; // Maximum number of scrapers to run concurrently
+        // var tasks = new List<Task>();
+        // foreach (var chunk in chunks)
+        // {
+        //     var task = Task.Run(() =>
+        //     {
+        //         var scraper = new ProfileTransparencyScraper(chunk);
+        //         scraper.Show();
+        //     });
+        //     tasks.Add(task);
+
+        //     // Wait for the tasks to complete if we reach the max count
+        //     if (tasks.Count >= maxScraperCount)
+        //     {
+        //         Task.WaitAll(tasks.ToArray());
+        //         tasks.Clear(); // Clear the completed tasks
+        //     }
+        // }
+
+        // Application.Run(new ProfileTransparencyScraper(accountUrls));
         return;
 
         Application.Run(new PostMessageScraper([
@@ -294,6 +317,51 @@ static class Program
         // ApplicationConfiguration.Initialize();
         // Application.Run(new DualWebViewForm());
         // Application.Run(new FacebookPageScraperForm([.. accountList.Select(x => x.Item2).ToArray()]));
+    }
+
+    private static void ScrapeProfileTransparency(string[] accountUrls)
+    {
+        // Split account URLs into chunks of 100
+        var chunkSize = 100;
+        var chunks = new List<string[]>();
+        for (int i = 0; i < accountUrls.Length; i += chunkSize)
+        {
+            var chunk = accountUrls.Skip(i).Take(chunkSize).ToArray();
+            chunks.Add(chunk);
+        }
+
+        var screenSize = Screen.PrimaryScreen!.Bounds.Size;
+
+        // Create 8 WebView2 windows in a grid layout
+        var rows = 2;
+        var columns = 4;
+        var width = screenSize.Width / columns;
+        var height = (screenSize.Height - 50) / rows; // Adjust height to fit the taskbar
+
+        var forms = new List<ProfileTransparencyScraper>();
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < columns; j++)
+            {
+                var form = new ProfileTransparencyScraper(chunks[i * columns + j])
+                {
+                    Size = new Size(width, height),
+                    Location = new Point(j * width, i * height),
+                    StartPosition = FormStartPosition.Manual,
+                    Text = $"WebView2 - {i * columns + j + 1}",
+                    WindowState = FormWindowState.Normal,
+                };
+                forms.Add(form);
+                form.Show();
+            }
+        }
+
+        // Wait for all forms to close before exiting the application
+        while (forms.Any(f => !f.IsDisposed))
+        {
+            Application.DoEvents();
+            Thread.Sleep(100); // Sleep for a short duration to avoid busy waiting
+        }
     }
 
     public static string NormalizeFancyText(string input)
