@@ -59,7 +59,7 @@ namespace WebView2MultiView
             startButton.Enabled = false;
 
             // If a previous scraping result file exists, load it
-            var resultsFile = "creation_dates.json";
+            var resultsFile = "output/creation_dates.json";
             if (File.Exists(resultsFile))
             {
                 var previousResultsJson = File.ReadAllText(resultsFile);
