@@ -1,132 +1,342 @@
 using Microsoft.Web.WebView2.Core;
 using Microsoft.Web.WebView2.WinForms;
 using System.Globalization;
+using System.Security.Cryptography;
+using System.Text;
 using System.Text.Json;
+using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 
-namespace WebView2MultiView
+namespace WebView2MultiView;
+
+public partial class PostCommentScraper : Form
 {
-    public partial class PostCommentScraper : Form
+    private readonly List<string> _urlsToScrape;
+    private WebView2 _webView;
+    private Button _nextPageButton;
+    private Button _scrapeCommentsButton;
+    private Label _statusLabel;
+    private int _currentPage = 0;
+
+    public PostCommentScraper(string[] urls)
     {
-        private readonly List<string> urlsToScrape;
-        private readonly Dictionary<string, DateTime?> scrapeResults = new();
-        private WebView2 webView;
-        private Button nextPageButton;
-        private Button scrapeCommentsButton;
-        private int currentPage = 0;
+        _urlsToScrape = [.. urls];
+        WindowState = FormWindowState.Maximized;
+        InitializeUI();
+        _ = InitializeWebViewAsync(); // fire and forget
+    }
 
-        public PostCommentScraper(string[] urls)
+    private async Task InitializeWebViewAsync()
+    {
+        var userDataFolder = Path.Combine(
+            Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+            "MyAppWebView2"
+        );
+
+        var environment = await CoreWebView2Environment.CreateAsync(null, userDataFolder).ConfigureAwait(false);
+
+        await InvokeAsync(() =>
         {
-            WindowState = FormWindowState.Maximized;
+            _webView = new WebView2
+            {
+                Dock = DockStyle.Fill,
+                ZoomFactor = 0.75
+            };
+            Controls.Add(_webView);
+        });
 
-            urlsToScrape = [.. urls];
+        await _webView.EnsureCoreWebView2Async(environment).ConfigureAwait(false);
+    }
 
-            InitializeWebViewAsync();
-            InitializeUI();
+    private void InitializeUI()
+    {
+        var panel = new Panel
+        {
+            Dock = DockStyle.Bottom,
+            Height = 40
+        };
+        Controls.Add(panel);
+
+        _nextPageButton = new Button
+        {
+            Text = "➡️ Load Next Page",
+            Width = 150,
+            Left = 10,
+            Top = 10
+        };
+        _nextPageButton.Click += async (_, _) => await LoadNextPageAsync();
+        panel.Controls.Add(_nextPageButton);
+
+        _scrapeCommentsButton = new Button
+        {
+            Text = "📝 Scrape Comments",
+            Width = 150,
+            Left = 170,
+            Top = 10
+        };
+        _scrapeCommentsButton.Click += async (_, _) => await ScrapeCommentsAsync();
+        panel.Controls.Add(_scrapeCommentsButton);
+
+        _statusLabel = new Label
+        {
+            Text = "Status: Ready",
+            AutoSize = true,
+            Left = 500,
+            Top = 20
+        };
+        panel.Controls.Add(_statusLabel);
+    }
+
+    private async Task LoadNextPageAsync()
+    {
+        if (_currentPage >= _urlsToScrape.Count)
+        {
+            await InvokeAsync(() =>
+            {
+                MessageBox.Show("✅ No more pages to load.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            });
+            return;
         }
 
-        private async void InitializeWebViewAsync()
+        var url = _urlsToScrape[_currentPage++];
+
+        await InvokeAsync(() =>
         {
-            var userDataFolder = Path.Combine(
-                Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-                "MyAppWebView2"
-            );
+            _statusLabel.Text = $"Loading page {_currentPage} of {_urlsToScrape.Count}...";
+            _webView.Source = new Uri(url);
+        });
 
-            var environment = await CoreWebView2Environment.CreateAsync(null, userDataFolder);
-            webView = new WebView2
-            {
-                Dock = DockStyle.Fill
-            };
+        // Wait briefly to allow page rendering to start
+        await Task.Delay(2000);
 
-            Controls.Add(webView);
-            await webView.EnsureCoreWebView2Async(environment);
+        await InvokeAsync(() =>
+        {
+            _statusLabel.Text = "Page loaded.";
+            // Move focus to Scrape Comments button
+            _scrapeCommentsButton.Focus();
+            // Perform click action on the button
+            _scrapeCommentsButton.PerformClick();
+        });
+    }
+
+    private string GetHashedUrl()
+    {
+        var url = _webView.Source.ToString();
+        var hash = Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(url)));
+        return hash;
+    }
+
+    private async Task ScrapeCommentsAsync()
+    {
+        // Check if file exists
+        var hash = GetHashedUrl();
+        var fileName = $"comments/comments_{hash}.json";
+        var mustScrapeComments = true;
+        if (File.Exists(fileName))
+        {
+            mustScrapeComments = false;
+            // await InvokeAsync(() =>
+            // {
+            //     // Update status label
+            //     _statusLabel.Text = $"✅ Comments already scraped and saved to {fileName}";
+            //     // Move focus to Load Next Page button
+            //     _nextPageButton.Focus();
+            //     // Perform click action on the button
+            //     _nextPageButton.PerformClick();
+            // });
+            // return;
+        }
+        else
+        {
+            // Wait 5 seconds before scraping
+            await Task.Delay(2000);
         }
 
-        private void InitializeUI()
+        if (_webView.CoreWebView2 == null)
         {
-            var panel = new Panel
+            await InvokeAsync(() =>
             {
-                Dock = DockStyle.Bottom,
-                Height = 50
-            };
-            Controls.Add(panel);
-            nextPageButton = new Button
-            {
-                Text = "Load next page",
-                Dock = DockStyle.Left
-            };
-            nextPageButton.Click += async (_, _) =>
-            {
-                nextPageButton.Enabled = false;
+                MessageBox.Show("⚠️ WebView not ready yet.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            });
+            return;
+        }
 
-                if (currentPage >= urlsToScrape.Count)
+        await InvokeAsync(() =>
+        {
+            _statusLabel.Text = "Scrolling to load comments...";
+            _scrapeCommentsButton.Enabled = false;
+        });
+
+        try
+        {
+            var tcs = new TaskCompletionSource();
+
+            void Handler(object? sender, CoreWebView2WebMessageReceivedEventArgs args)
+            {
+                if (args.TryGetWebMessageAsString() == "scrolling_done")
                 {
-                    MessageBox.Show("No more pages to load.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    return;
-                }
-
-                var url = urlsToScrape[currentPage];
-                currentPage++;
-                webView.Source = new Uri(url);
-
-                nextPageButton.Enabled = true;
-            };
-            panel.Controls.Add(nextPageButton);
-
-
-
-            scrapeCommentsButton = new Button
-            {
-                Text = "Scrape Comments",
-                Dock = DockStyle.Right
-            };
-            scrapeCommentsButton.Click += async (_, _) => await StartScrapingAsync();
-
-            panel.Controls.Add(scrapeCommentsButton);
-        }
-
-        public class Comment
-        {
-            [JsonPropertyName("name")]
-            public string Name { get; set; }
-            [JsonPropertyName("text")]
-            public string Text { get; set; }
-        }
-
-        private async Task StartScrapingAsync()
-        {
-            scrapeCommentsButton.Enabled = false;
-
-            var jsResult = await webView.ExecuteScriptAsync(JSGetCommentsScript());
-            Console.WriteLine($"Raw JS result: {jsResult}");
-
-            if (!string.IsNullOrWhiteSpace(jsResult))
-            {
-                // WebView2 wraps the result in quotes, so remove them
-                jsResult = System.Text.Json.JsonSerializer.Deserialize<string>(jsResult);
-
-                // Now deserialize into a C# list
-                var comments = JsonSerializer.Deserialize<List<Comment>>(jsResult);
-
-                if (comments != null)
-                {
-                    foreach (var comment in comments)
-                    {
-                        Console.WriteLine($"Name: {comment.Name}, Text: {comment.Text}");
-                    }
+                    _webView.CoreWebView2.WebMessageReceived -= Handler;
+                    tcs.SetResult();
                 }
             }
 
-            scrapeCommentsButton.Enabled = true;
-        }
+            _webView.CoreWebView2.WebMessageReceived += Handler;
+            await Task.Delay(2000);
 
-        private static string JSGetCommentsScript() => @"
+            var postMessage = await _webView.ExecuteScriptAsync(@"
+                document.querySelectorAll('div[role=""dialog""] div[data-ad-rendering-role=""story_message""] > div[data-ad-preview=""message""]').forEach(div => {
+                    return div.innerText;
+                });
+            ");
+
+            if (mustScrapeComments)
+            {
+                // Inject the scrolling script
+                await _webView.ExecuteScriptAsync(@"
+                    (function () {
+                        let containerSelector = '[role=""dialog""] > div > div > div > div > div > div > div';
+
+                            function delay(ms) {
+                            return new Promise(resolve => setTimeout(resolve, ms));
+                        }
+
+                        function waitForContainer(callback)
+                        {
+                            const interval = setInterval(() =>
+                            {
+                                let el = document.querySelector(containerSelector)?.children[1];
+                                if (!el)
+                                {
+                                    containerSelector += ' > div';
+                                }
+                                if (el)
+                                {
+                                    clearInterval(interval);
+                                    callback(el);
+                                }
+                            }, 500);
+                        }
+
+                        waitForContainer(async function(container) {
+                            console.log(""📦 Comment container found: "", container);
+
+                            let lastHeight = 0;
+                            let stableCount = 0;
+                            const maxStableChecks = 5;
+
+                            const scrollInterval = setInterval(async () =>
+                            {
+                            container.scrollTop += 1000;
+
+                            const newHeight = container.scrollHeight;
+
+                            if (newHeight === lastHeight)
+                            {
+                                stableCount++;
+                                console.log(`⏳ No new comments... (${ stableCount } /${ maxStableChecks})`);
+                        } else
+                        {
+                            stableCount = 0;
+                            lastHeight = newHeight;
+                            console.log(""⬇️ Scrolling more..."");
+                        }
+
+                        if (stableCount >= maxStableChecks)
+                        {
+                            console.log(""✅ Reached the bottom — all comments loaded."");
+                            clearInterval(scrollInterval);
+                            window.chrome.webview.postMessage('scrolling_done');
+                        }
+                    }, 1000);
+                });
+                    })();
+                ");
+
+                // Wait for scrolling to complete
+                await tcs.Task;
+
+                // Now scrolling is done, start scraping
+                await InvokeAsync(() =>
+                {
+                    _statusLabel.Text = "Scraping comments...";
+                });
+
+                var jsResult = await _webView.ExecuteScriptAsync(JSGetCommentsScript()).ConfigureAwait(false);
+
+                if (!string.IsNullOrWhiteSpace(jsResult))
+                {
+                    var cleanJson = JsonSerializer.Deserialize<string>(jsResult);
+                    var comments = JsonSerializer.Deserialize<List<Comment>>(cleanJson);
+
+                    if (comments != null)
+                    {
+                        await InvokeAsync(() =>
+                        {
+                            _statusLabel.Text = $"✅ Scraped {comments.Count} comments. Current page: {_currentPage} of {_urlsToScrape.Count}";
+
+                            // Save to file
+                            var url = _webView.Source.ToString();
+                            var hash = GetHashedUrl();
+                            var fileName = $"comments_{hash}.json";
+
+                            var json = JsonSerializer.Serialize(new { url, comments }, new JsonSerializerOptions { WriteIndented = true });
+                            File.WriteAllText(fileName, json);
+
+                            // Move focus to Load Next Page button
+                            _nextPageButton.Focus();
+                            // Perform click action on the button
+                            _nextPageButton.PerformClick();
+
+                            // MessageBox.Show($"✅ Saved {comments.Count} comments to {fileName}", "Save Complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        });
+                    }
+                    else
+                    {
+                        await InvokeAsync(() => _statusLabel.Text = "No comments found.");
+                    }
+                }
+            }
+            else
+            {
+                // Load comments from file and append the post message
+
+                var json = File.ReadAllText(fileName);
+                var root = JsonSerializer.Deserialize<JsonObject>(json);
+                // Append the post message to root object
+                root!["message"] = postMessage;
+                var updatedJson = JsonSerializer.Serialize(root, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(fileName, updatedJson);
+
+                await InvokeAsync(() =>
+                {
+                    _statusLabel.Text = $"✅ Appended post message to {fileName}";
+                    // Move focus to Load Next Page button
+                    _nextPageButton.Focus();
+                    // Perform click action on the button
+                    _nextPageButton.PerformClick();
+                });
+            }
+        }
+        catch (Exception ex)
+        {
+            await InvokeAsync(() =>
+            {
+                MessageBox.Show($"Failed to parse comments:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            });
+        }
+        finally
+        {
+            await InvokeAsync(() => _scrapeCommentsButton.Enabled = true);
+        }
+    }
+
+
+    private static string JSGetCommentsScript() => @"
 (() => {
     const results = [];
 
     document.querySelectorAll('[aria-label^=""Comment by""]').forEach(comment => {
         const ariaLabel = comment.getAttribute(""aria-label"");
-
         let name = '';
         if (ariaLabel) {
             let temp = ariaLabel.replace(/^Comment by /, '');
@@ -156,28 +366,57 @@ namespace WebView2MultiView
     });
 
     return JSON.stringify(results);
-})();";
+})();
+";
 
-
-
-        private static DateTime? ParseFacebookCreationDate(string rawDate)
+    private static async Task InvokeAsync(Action action)
+    {
+        if (Application.OpenForms.Count > 0 && Application.OpenForms[0].InvokeRequired)
         {
-            if (string.IsNullOrWhiteSpace(rawDate))
-                return null;
+            await Application.OpenForms[0].InvokeAsync(action);
+        }
+        else
+        {
+            action();
+        }
+    }
 
-            var formats = new[] { "MMMM d, yyyy", "MMMM d" };
+    public class Comment
+    {
+        [JsonPropertyName("name")]
+        public string Name { get; set; }
+        [JsonPropertyName("text")]
+        public string Text { get; set; }
+    }
+}
 
-            foreach (var format in formats)
+static class ControlExtensions
+{
+    public static Task InvokeAsync(this Control control, Action action)
+    {
+        if (control.InvokeRequired)
+        {
+            var tcs = new TaskCompletionSource<object?>();
+
+            control.BeginInvoke(new MethodInvoker(() =>
             {
-                if (DateTime.TryParseExact(rawDate, format, CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime parsed))
+                try
                 {
-                    if (format == "MMMM d")
-                        return new DateTime(DateTime.Now.Year, parsed.Month, parsed.Day);
-                    return parsed;
+                    action();
+                    tcs.SetResult(null);
                 }
-            }
+                catch (Exception ex)
+                {
+                    tcs.SetException(ex);
+                }
+            }));
 
-            return null;
+            return tcs.Task;
+        }
+        else
+        {
+            action();
+            return Task.CompletedTask;
         }
     }
 }
