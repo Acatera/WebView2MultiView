@@ -3,6 +3,7 @@ using Microsoft.Web.WebView2.WinForms;
 using System.Drawing.Design;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.Encodings.Web;
 using System.Text.Json;
 
 namespace WebView2MultiView
@@ -125,7 +126,7 @@ namespace WebView2MultiView
                 if (result != null)
                 {
                     var fileName = Path.Combine(folderName, $"profile_{currentUrlHash}.json");
-                    var jsonResult = JsonSerializer.Serialize(result, new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping });
+                    var jsonResult = JsonSerializer.Serialize(result, new JsonSerializerOptions { WriteIndented = true, Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping });
                     File.WriteAllText(fileName, jsonResult);
                 }
 
@@ -146,7 +147,6 @@ namespace WebView2MultiView
         }
 
         private static string JSPressCloseButton() => @"document.querySelector('div[aria-label=\'Close\'][role=\'button\']').click();";
-
 
         private static string JavascriptScraper() => @"
         (() => {

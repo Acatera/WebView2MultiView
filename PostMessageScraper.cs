@@ -121,9 +121,9 @@ public partial class PostMessageScraper : Form
             var tcs = new TaskCompletionSource();
 
             var postMessageJson = await _webView.ExecuteScriptAsync(@"
-    Array.from(document.querySelectorAll('div[role=""dialog""] div[data-ad-rendering-role=""story_message""] > div[data-ad-preview=""message""]'))
-         .map(div => div.innerText);
-");
+                Array.from(document.querySelectorAll('div[role=\'dialog\'] div[data-ad-rendering-role=\'story_message\'] > div[data-ad-preview=\'message\']'))
+                    .map(div => div.innerText);
+            ");
 
             // Deserialize it
             var postMessages = JsonSerializer.Deserialize<List<string>>(postMessageJson);

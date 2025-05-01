@@ -38,4 +38,43 @@ public static class DataUtils
             return null;
         }
     }
+
+    public static string[]? GetPostUrls(){
+        // Load engaging_posts.json from output dir
+        string path = "output/engaging_posts.json";
+
+        if (!File.Exists(path))
+        {
+            Console.WriteLine($"engaging_posts.json not found at {path}");
+            return null;
+        }
+
+        try
+        {
+            var json = File.ReadAllText(path);
+            var jsonObject = JsonDocument.Parse(json);
+            var posts = jsonObject.RootElement.GetProperty("posts").EnumerateArray();
+            var urls = new List<string>();
+
+            foreach (var post in posts)
+            {
+                if (post.TryGetProperty("url", out var urlElement))
+                {
+                    var url = urlElement.GetString();
+                    if (!url!.Contains("permalink") && !url.Contains("posts"))
+                    {
+                        continue;
+                    }
+                    urls.Add(urlElement.GetString() ?? string.Empty);
+                }
+            }
+
+            return [.. urls];
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading engaging_posts.json: {ex.Message}");
+            return null;
+        }
+    }
 }
