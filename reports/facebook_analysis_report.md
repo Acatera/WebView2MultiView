@@ -1,4 +1,20 @@
-\n\n## 1. Follower Growth Rate Distribution\n\n![](../reports/report_images/growth_rate_distribution.png)\n\n\n\n## 2. Followers vs. Account Age\n\n![](../reports/report_images/followers_vs_age.png)\n\n\n\n## 3. Likes vs. Followers\n\n![](../reports/report_images/likes_vs_followers.png)\n\n\n\n## 4. Frequent Name Changes\n\n| name                                                            |   name_changes |
+# Reports
+
+## 1. Follower Growth Rate Distribution
+
+![growth_rate_distribution](../reports/report_images/growth_rate_distribution.png)
+
+## 2. Followers vs. Account Age
+
+![followers_vs_age](../reports/report_images/followers_vs_age.png)
+
+## 3. Likes vs. Followers
+
+![likes_vs_followers](../reports/report_images/likes_vs_followers.png)
+
+## 4. Frequent Name Changes
+
+| name                                                            |   name_changes |
 |:----------------------------------------------------------------|---------------:|
 | Destine de poveste                                              |              4 |
 | Horse world                                                     |              4 |
@@ -51,7 +67,11 @@
 | Ardelenii                                                       |              4 |
 | VIAȚĂ                                                           |              4 |
 | Foaia patrioților                                               |              5 |
-| Pufoşenia Zilei                                                 |              5 |\n\n## 5. High Manager Count Across Countries\n\n| name                                  |   manager_count |   unique_manager_countries |
+| Pufoşenia Zilei                                                 |              5 |
+
+## 5. High Manager Count Across Countries
+
+| name                                  |   manager_count |   unique_manager_countries |
 |:--------------------------------------|----------------:|---------------------------:|
 | Cake recipe                           |              23 |                          3 |
 | Horse world                           |              22 |                          3 |
@@ -73,7 +93,11 @@
 | Părintele Arsenie Boca                |              16 |                          2 |
 | Sfântul Efrem cel Nou                 |              16 |                          2 |
 | Ortodoxia                             |              19 |                          2 |
-| Sfantul Nectarie                      |              18 |                          2 |\n\n## 6. High Engagement but No Ads\n\n| name                                                |    followers | ad_status.has_run   |
+| Sfantul Nectarie                      |              18 |                          2 |
+
+## 6. High Engagement but No Ads
+
+| name                                                |    followers | ad_status.has_run   |
 |:----------------------------------------------------|-------------:|:--------------------|
 | Destine de poveste                                  |  93000       | False               |
 | România solidară                                    | 134000       | False               |
@@ -442,7 +466,19 @@
 | Poliția Română                                      |      1.1e+06 | False               |
 | ISU Timiș                                           |  64000       | False               |
 | ȘTIRI                                               |  80000       | False               |
-| DOZA De RAS                                         | 367000       | False               |\n\n## 7. Page Managers by Country\n\n![](../reports/report_images/managers_by_country.png)\n\n\n\n## 8. Pages per Manager Country\n\n![](../reports/report_images/pages_by_country.png)\n\n\n\n## 9. Pages with Scraping Errors (Likes Missing)\n\n| name                                                            |    followers |
+| DOZA De RAS                                         | 367000       | False               |
+
+## 7. Page Managers by Country
+
+![managers_by_country](../reports/report_images/managers_by_country.png)
+
+## 8. Pages per Manager Country
+
+![pages_by_country](../reports/report_images/pages_by_country.png)
+
+## 9. Pages with Scraping Errors (Likes Missing)
+
+| name                                                            |    followers |
 |:----------------------------------------------------------------|-------------:|
 | Destine de poveste                                              |  93000       |
 | Horse world                                                     |  27000       |
@@ -636,7 +672,11 @@
 | Partidul DAC Vaslui                                             |   1000       |
 | Partidul Țărănesc                                               |    289       |
 | Partidul Libertății Brașov                                      |   1200       |
-| Grupul cu Bancuri                                               |  15000       |\n\n## 10. Page Type Trends\n\n| account_type   |   count |     mean |   median |
+| Grupul cu Bancuri                                               |  15000       |
+
+## 10. Page Type Trends
+
+| account_type   |   count |     mean |   median |
 |:---------------|--------:|---------:|---------:|
 | Page           |     731 | 130941   |    57000 |
 | Profile        |       6 |  48714.3 |     5000 |
