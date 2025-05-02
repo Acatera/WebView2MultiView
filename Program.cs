@@ -10,7 +10,7 @@ static class Program
     private static readonly Dictionary<string, DateTime?> creationDates = [];
 
     private static readonly bool scrapeProfileTransparency = false;
-    private static readonly bool scrapePostWithComments = true;
+    private static readonly bool scrapePostWithComments = false;
 
     [STAThread]
     static void Main()
@@ -39,6 +39,21 @@ static class Program
             Application.Run(new PostCommentScraper(engagingPosts));
             // Application.Run(new PostMessageScraper(engagingPosts));
             return;
+        }
+
+        if (true){
+            var accountUrls = DataUtils.GetAccountUrls();
+            if (accountUrls == null || accountUrls.Length == 0)
+            {
+                MessageBox.Show("No account URLs found in augmented_accounts.json.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            var aboutUrls = accountUrls.Select(url => {
+                return url.Contains('?') ? url + "&sk=about" : url + "/about";
+            }).ToArray();
+
+            Application.Run(new FacebookPageScraperForm(aboutUrls));
         }
     }
 

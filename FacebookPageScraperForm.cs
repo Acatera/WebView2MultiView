@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,13 +15,15 @@ namespace WebView2MultiView
     public partial class FacebookPageScraperForm : Form
     {
         private readonly List<string> urlsToScrape;
-        private readonly Dictionary<string, DateTime?> scrapeResults = new();
         private WebView2 webView;
         private Button startButton;
+        private readonly Dictionary<string, string?> addresses = [];
 
         public FacebookPageScraperForm(string[] urls)
         {
             urlsToScrape = urls.ToList();
+
+            Size = new System.Drawing.Size(800, 600);
 
             InitializeWebViewAsync();
             InitializeUI();
@@ -59,17 +62,17 @@ namespace WebView2MultiView
             startButton.Enabled = false;
 
             // If a previous scraping result file exists, load it
-            var resultsFile = "output/creation_dates.json";
+            var resultsFile = "output/addresses.json";
             if (File.Exists(resultsFile))
             {
                 var previousResultsJson = File.ReadAllText(resultsFile);
-                scrapeResults.Clear();
-                var previousResults = JsonSerializer.Deserialize<Dictionary<string, DateTime?>>(previousResultsJson);
+                addresses.Clear();
+                var previousResults = JsonSerializer.Deserialize<Dictionary<string, string?>>(previousResultsJson);
                 if (previousResults != null)
                 {
                     foreach (var kv in previousResults)
                     {
-                        scrapeResults[kv.Key] = kv.Value;
+                        addresses[kv.Key] = kv.Value;
                     }
 
                     Console.WriteLine("Loaded previous results from file.");
@@ -78,26 +81,30 @@ namespace WebView2MultiView
 
             foreach (var url in urlsToScrape)
             {
-                // if (scrapeResults.TryGetValue(url, out DateTime? value) && value != null)
+                // if (addresses.TryGetValue(url, out DateTime? value) && value != null)
                 // {
                 //     continue; // Skip if already scraped
                 // }
 
                 await NavigateAndScrapeAsync(url);
 
-                var json = JsonSerializer.Serialize(scrapeResults, new JsonSerializerOptions { WriteIndented = true });
+                var json = JsonSerializer.Serialize(addresses, new JsonSerializerOptions { WriteIndented = true, Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping });
                 File.WriteAllText(resultsFile, json);
             }
 
             MessageBox.Show("Scraping complete.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
             startButton.Enabled = true;
 
+            // Save results to JSON file
+            // var json = JsonSerializer.Serialize(addresses, new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping });
+            // File.WriteAllText(resultsFile, json);
+
             // Output to console
-            foreach (var kv in scrapeResults)
-                Console.WriteLine($"{kv.Key} => {kv.Value?.ToString("yyyy-MM-dd") ?? "Not found"}");
+            foreach (var kv in addresses)
+                Console.WriteLine($"{kv.Key} => {kv.Value}");
 
             // Output to JSON file
-            // var json = JsonSerializer.Serialize(scrapeResults, new JsonSerializerOptions { WriteIndented = true });
+            // var json = JsonSerializer.Serialize(addresses, new JsonSerializerOptions { WriteIndented = true });
             // File.WriteAllText(resultsFile, json);
             Console.WriteLine($"Results saved to {resultsFile}");
         }
@@ -112,25 +119,16 @@ namespace WebView2MultiView
 
                 try
                 {
-                    string jsResult = await webView.ExecuteScriptAsync(JavascriptScraper());
-                    string creationText = jsResult?.Trim('"');
-
-                    if (!string.IsNullOrWhiteSpace(creationText) && !creationText.StartsWith("Error"))
-                    {
-                        scrapeResults[url] = ParseFacebookCreationDate(creationText);
-                    }
-                    else
-                    {
-                        scrapeResults[url] = null;
-                    }
+                    await webView.ExecuteScriptAsync(JSPressCloseButton());
 
                     var addressJsResult = await webView.ExecuteScriptAsync(JSAddressScript());
                     string addressText = addressJsResult?.Trim('"');
                     Console.WriteLine($"Address for {url}: {addressText}");
+                    addresses[url] = addressText;
                 }
                 catch
                 {
-                    scrapeResults[url] = null;
+                    addresses[url] = null;
                 }
 
                 tcs.SetResult(true);
@@ -149,6 +147,8 @@ namespace WebView2MultiView
 
             await tcs.Task;
         }
+
+        private static string JSPressCloseButton() => @"document.querySelector('div[aria-label=\'Close\'][role=\'button\']').click();";
 
         private static string JavascriptScraper() => @"
 (() => {
