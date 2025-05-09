@@ -41,7 +41,8 @@ static class Program
             return;
         }
 
-        if (true){
+        if (false)
+        {
             var accountUrls = DataUtils.GetAccountUrls();
             if (accountUrls == null || accountUrls.Length == 0)
             {
@@ -49,11 +50,29 @@ static class Program
                 return;
             }
 
-            var aboutUrls = accountUrls.Select(url => {
+            var aboutUrls = accountUrls.Select(url =>
+            {
                 return url.Contains('?') ? url + "&sk=about" : url + "/about";
             }).ToArray();
 
             Application.Run(new FacebookPageScraperForm(aboutUrls));
+        }
+
+        if (true)
+        {
+            var accountUrls = new string[] { "https://www.facebook.com/www.hotnews.ro/posts/1096044209210790" };
+            if (accountUrls == null || accountUrls.Length == 0)
+            {
+                MessageBox.Show("No account URLs found in augmented_accounts.json.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            var aboutUrls = accountUrls.Select(url =>
+            {
+                return url.Contains('?') ? url + "&sk=about" : url + "/about";
+            }).ToArray();
+
+            Application.Run(new SearchForComment(aboutUrls));
         }
     }
 

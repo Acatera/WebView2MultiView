@@ -10,7 +10,7 @@ using System.Text.Json.Serialization;
 
 namespace WebView2MultiView;
 
-public partial class PostCommentScraper : Form
+public class PostCommentScraper : Form
 {
     private readonly List<string> _urlsToScrape;
     private WebView2 _webView;
