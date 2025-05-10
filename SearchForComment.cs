@@ -12,6 +12,7 @@ namespace WebView2MultiView;
 public class SearchForComment : Form
 {
     private readonly List<string> _urlsToScrape;
+    public List<SearchResult> SearchResults { get; } = [];
     private WebView2 _webView;
     private Button _nextPageButton;
     private Button _scrapeCommentsButton;
@@ -152,7 +153,7 @@ public class SearchForComment : Form
         await _webView.ExecuteScriptAsync(JSExtractAllComments());
 
         var json = await tcs.Task;
-        var searchResult = JsonSerializer.Deserialize<SearchResult>(json);
+        var searchResult = JsonSerializer.Deserialize<PageSearchResult>(json);
 
         if (searchResult != null && searchResult.Comments != null)
         {
@@ -166,8 +167,27 @@ public class SearchForComment : Form
                 Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
             });
 
-            File.WriteAllText(fileName, result);
+            // Append timestamp to the file name
+            var timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+            var fileNameWithTimestamp = Path.Combine("comments", $"comments_{hash}_{timestamp}.json");
 
+            File.WriteAllText(fileNameWithTimestamp, result);
+
+            var searchResultObj = new SearchResult
+            {
+                Url = _webView.Source.ToString(),
+                FoundAntiDezInfoHashTag = searchResult.FoundAntiDezInfoHashTag,
+            };
+            if (searchResult.FoundAntiDezInfoHashTag)
+            {
+                var antiDezInfoComment = searchResult.Comments
+                    .FirstOrDefault(c => c.Contains("#antidezinfo-"));
+                if (antiDezInfoComment != null)
+                {
+                    searchResultObj.Comment = antiDezInfoComment;
+                }
+            }
+            SearchResults.Add(searchResultObj);
             await InvokeAsync(() =>
             {
                 _statusLabel.Text = $"Scraped {searchResult.Comments.Length} comments.";
@@ -213,6 +233,16 @@ public class SearchForComment : Form
                         window.chrome.webview.postMessage(JSON.stringify({
                             foundAntiDezInfoHashTag,
                         comments
+                        }));
+                        return;
+                    }
+
+                    if (comments.length >= 50)
+                    {
+                        console.log('Reached 50 comments, stopping processing.');
+                        window.chrome.webview.postMessage(JSON.stringify({
+                            foundAntiDezInfoHashTag,
+                            comments
                         }));
                         return;
                     }
@@ -295,10 +325,19 @@ public class SearchForComment : Form
         }
     }
 
-    public class SearchResult {
+    public class PageSearchResult
+    {
+        public string Url { get; set; } = default!;
         [JsonPropertyName("foundAntiDezInfoHashTag")]
         public bool FoundAntiDezInfoHashTag { get; set; }
         [JsonPropertyName("comments")]
         public string[] Comments { get; set; } = [];
+    }
+
+    public class SearchResult
+    {
+        public string Url { get; set; } = default!;
+        public bool FoundAntiDezInfoHashTag { get; set; }
+        public string? Comment { get; set; }
     }
 }

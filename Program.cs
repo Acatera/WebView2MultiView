@@ -72,7 +72,14 @@ static class Program
                 return url.Contains('?') ? url + "&sk=about" : url + "/about";
             }).ToArray();
 
-            Application.Run(new SearchForComment(aboutUrls));
+            var form = new SearchForComment(aboutUrls);
+
+            Application.Run(form);
+
+            // Persist form.SearchResults to a file
+            var filename = "search_results.json";
+            var json = JsonSerializer.Serialize(form.SearchResults, new JsonSerializerOptions { WriteIndented = true, Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping });
+            File.WriteAllText(filename, json);
         }
     }
 
